@@ -5,9 +5,16 @@
     <loc>https://example.com/about/</loc>
     <lastmod>2023-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/</loc>
-  </url><url>
     <loc>https://example.com/</loc>
+    <lastmod>2023-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/projects/</loc>
+    <lastmod>2023-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/projects/unet-water-body-segmentation/</loc>
+    <lastmod>2023-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/categories/</loc>
   </url><url>
     <loc>https://example.com/tags/</loc>
   </url>

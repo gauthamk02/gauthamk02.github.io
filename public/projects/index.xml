@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Gautham Krishnan</title>
+    <link>https://example.com/projects/</link>
+    <description>Recent content in Projects on Gautham Krishnan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>U-Net Water Body Segmentation</title>
+      <link>https://example.com/projects/unet-water-body-segmentation/</link>
+      <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/projects/unet-water-body-segmentation/</guid>
+      <description>A project using the U-NET model for segmenting water bodies from satellite images. The model is deployed to Huggingface spaces using Gradio.
+Huggingface: https://huggingface.co/spaces/gauthamk/water-body-segmentation
+Github: https://github.com/gauthamk02/pytorch-waterbody-segmentation</description>
+    </item>
+    
+  </channel>
+</rss>

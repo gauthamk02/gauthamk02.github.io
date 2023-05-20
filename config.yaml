@@ -45,7 +45,7 @@ social:
 # Site parameters
 params:
   # Site Author
-  author: Gautham rishnan
+  author: Gautham Krishnan
   # Author biography
   bio: another rando that reads, codes and nerds
   # Site Description, used in HTML meat
@@ -69,15 +69,15 @@ params:
   # To enable math typesetting , you could set `math: true`, default is `false`
   math: false
   # To hidden post summary in home page, you could set `hiddenPostSummaryInHomePage: true`, default is `false`
-  hiddenPostSummaryInHomePage: false
+  hiddenPostSummaryInHomePage: true
   # Website copy write, default: '© Copyright 2021 ❤️ {params.author}'
   copyright: '' 
 
   # Extra links in navigation
   links:
     ## e.g.
-    # - name: Project
-    #   path: /project
+    - name: Projects
+      path: /projects
 
   # You can put your custom css and js to `static` directory, or use remote css and js files which start with `http://` or `https://`
   customCSS:
