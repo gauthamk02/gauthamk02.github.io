@@ -22,9 +22,8 @@
       <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/projects/unet-water-body-segmentation/</guid>
-      <description>A project using the U-NET model for segmenting water bodies from satellite images. The model is deployed to Huggingface spaces using Gradio.
-Huggingface: https://huggingface.co/spaces/gauthamk/water-body-segmentation
-Github: https://github.com/gauthamk02/pytorch-waterbody-segmentation</description>
+      <description>A project using the U-NET model for segmenting water bodies from satellite images. The model is deployed to Huggingface spaces using Gradio. This is one of my first D projects and I learned a lot doing this project.
+Anyway its not a big deal, I just uploaded this project as a blog to test the working of this Hugo theme and I routinely modify it just to get the GitHub activity graph green.</description>
     </item>
     
   </channel>
