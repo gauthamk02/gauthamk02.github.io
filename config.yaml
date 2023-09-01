@@ -1,4 +1,4 @@
-baseURL: https://example.com
+baseURL: https://gauthamk02.github.io/
 languageCode: en-us
 title: Gautham Krishnan
 theme: hugo-theme-mini
@@ -67,7 +67,7 @@ params:
   # To hidden powerBy message in the page footer, you could set: `showPowerBy: false`, default is `true`
   showPowerBy: false
   # To enable math typesetting , you could set `math: true`, default is `false`
-  math: false
+  math: true
   # To hidden post summary in home page, you could set `hiddenPostSummaryInHomePage: true`, default is `false`
   hiddenPostSummaryInHomePage: true
   # Website copy write, default: '© Copyright 2021 ❤️ {params.author}'
@@ -78,11 +78,18 @@ params:
     ## e.g.
     - name: Projects
       path: /projects
-
+    - name: Blogs
+      path: /posts
+    # - name: CV
+    #   path: https://drive.google.com/file/d/1m1Tbe-himD18DG0xv2gzxOKHdKMI3H5-/view?usp=sharing
   # You can put your custom css and js to `static` directory, or use remote css and js files which start with `http://` or `https://`
+
+  showCV: true
+  cvLink: https://drive.google.com/file/d/1m1Tbe-himD18DG0xv2gzxOKHdKMI3H5-/view?usp=sharing
+
   customCSS:
     ## e.g.
-    # - css/custom.css # local css in `static/css/custom.css`
+    - css/custom.css # local css in `static/css/custom.css`
     # - https://example.com/custom.css # remote css
   customJS:
     ## e.g.
