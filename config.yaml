@@ -15,7 +15,7 @@ permalinks:
 
 paginate: 3
 
-# googleAnalytics: your-google-analytics-id
+googleAnalytics:  G-LBPYE8PRE4
 # disqusShortname: your-disqus-shortname
 
 # Hugo Configure Markup
