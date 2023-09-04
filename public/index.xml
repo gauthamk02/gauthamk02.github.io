@@ -6,7 +6,17 @@
     <description>Recent content on Gautham Krishnan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://gauthamk02.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://gauthamk02.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intro to Maths of Neural Networks</title>
+      <link>https://gauthamk02.github.io/posts/intro-to-maths-of-neural-networks/</link>
+      <pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://gauthamk02.github.io/posts/intro-to-maths-of-neural-networks/</guid>
+      <description>Intro to maths of Neural Networks 🔗Deep Learning and AI have gained a lot of popularity because of the recent advancements in the field showing their capabilities for tasks like image detection, chat completion, image generation etc. At the base of all these models is Artifical Neural Networks(ANN). This article provides a basic understanding of maths and theoretical working of these networks.
+Most of the maths present in this article comes under Linear Algebra and Calculus.</description>
+    </item>
+    
     <item>
       <title>About Me</title>
       <link>https://gauthamk02.github.io/about/</link>

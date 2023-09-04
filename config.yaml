@@ -78,7 +78,7 @@ params:
     ## e.g.
     - name: Projects
       path: /projects
-    - name: Blogs
+    - name: Posts
       path: /posts
     # - name: CV
     #   path: https://drive.google.com/file/d/1m1Tbe-himD18DG0xv2gzxOKHdKMI3H5-/view?usp=sharing
