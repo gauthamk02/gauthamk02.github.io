@@ -82,9 +82,11 @@ A decision boundary is the line that separates the input values to dfferent outp
 </center>
 <br>
 
-Consider the above two graphs where \\(x_1\\) and \\(x_2\\) are the input data and red, blue are two different classes. On the graph on the left, the data is arranged in such a way that it can be separated by a stright line, i.e it is linearly separable. A model for classifying such data can be built without using activation functions and the model will learn a decision boundary similar to the one given in the graph. However, the Graph on the right consists of data-points that is arrranged in a non-linearly separable way. To make a model capable of classifying the points in this graph accurately, we will have to use activation functions.
+Consider the above two graphs where \\(x_1\\) and \\(x_2\\) are the input data and red, blue are two different classes. On the graph on the left, the data is arranged in such a way that it can be separated by a stright line, i.e it is linearly separable. A model for classifying such data can be built without using activation functions and the model will learn a decision boundary similar to the one given in the graph. However, the Graph on the right consists of data-points that is arrranged in a non-linearly separable way. To make a model capable of classifying the points in this graph accurately, we will have to use activation functions. 
 
-There are different activation functions that are used for constructing ANNs. Most of the time all the hidden layers will have the same activation and output layer, a different one. Some of the common activation functions are:
+Still confused? Visit [Tensorflow Playground](https://playground.tensorflow.org/), select a non-linearly separable data and try to train the model using different activation functions. The linear activation function is an identity function \\(\sigma(x) = x\\) or any other linear function and wont allow the model to learn a non-linear decision boundary. The model will only be able to classify the non-linear data if a non-linear activation function is used.
+
+There are different activation functions that are used for constructing ANNs. Most of the time all the hidden layers will have the same activation and output layer, a different one. Some of the common non-linear activation functions are:
 
 1. **Sigmoid function**
     The sigmoid function \\(\sigma:\mathbb{R}\rightarrow[0, 1]\\) takes in a real numbered value and maps it to between 0 and 1 in such a way that \\(\lim_{x\to\infty} \sigma(x) = 1\\) and \\(\lim_{x\to-\infty} \sigma(x) = 0\\). The equation of Sigmoid funcion is 
