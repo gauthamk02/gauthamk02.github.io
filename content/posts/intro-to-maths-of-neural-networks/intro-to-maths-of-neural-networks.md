@@ -5,8 +5,6 @@ draft: false
 math: true
 ---
 
-# Intro to maths of Neural Networks
-
 Deep Learning and AI have gained a lot of popularity because of the recent advancements in the field showing their capabilities for tasks like image detection, chat completion, image generation etc. At the base of all these models is Artifical Neural Networks(ANN). This article provides a basic understanding of maths and theoretical working of these networks.
 
 Most of the maths present in this article comes under Linear Algebra and Calculus. Anyone who has done an undergrad course or two on these topics will be familiar with the concepts explained in the article.
