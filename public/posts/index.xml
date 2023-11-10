@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Gautham Krishnan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://gauthamk02.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://gauthamk02.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Basic Git commands and Terminologies</title>
+      <link>https://gauthamk02.github.io/posts/basic-git-commands-and-terminologies/</link>
+      <pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://gauthamk02.github.io/posts/basic-git-commands-and-terminologies/</guid>
+      <description>Git commands 🔗 git init This command is used for initialising the currect directory as a git repository. Currrently, git init -b main is preferred as git switched to main as the primary branch and using this command will initialise the repository with main as the default branch.
+git clone This command is used for cloning a remote repository to the current directory. The full syntax for it is git clone &amp;lt;remote-repository-link&amp;gt;.</description>
+    </item>
+    
     <item>
       <title>Intro to Maths of Neural Networks</title>
       <link>https://gauthamk02.github.io/posts/intro-to-maths-of-neural-networks/</link>

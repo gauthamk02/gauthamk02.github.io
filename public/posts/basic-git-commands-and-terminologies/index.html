@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <title>Gautham Krishnan</title>
+    <title>Basic Git commands and Terminologies | Gautham Krishnan</title>
 
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
 <meta name="viewport" content="width=device-width,minimum-scale=1">
-<meta name="description" content="My Blog">
+<meta name="description" content="Git commands 🔗 git init This command is used for initialising the currect directory as a git repository. Currrently, git init -b main is preferred as git switched to main as the primary branch and using this command will initialise the repository with main as the default branch.
+git clone This command is used for cloning a remote repository to the current directory. The full syntax for it is git clone &lt;remote-repository-link&gt;.">
 <meta name="generator" content="Hugo 0.118.2">
 
 
@@ -48,17 +49,14 @@ if (!doNotTrack) {
 
 
 
-  
-    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Gautham Krishnan" />
-    <link href="/index.xml" rel="feed" type="application/rss+xml" title="Gautham Krishnan" />
-  
-
 
 
   </head>
 
   <body>
     <nav class="navigation">
+	
+		<a href="/"> <span class="arrow">←</span>Home</a>
 	
 	
 	
@@ -76,96 +74,145 @@ if (!doNotTrack) {
 	
 
 	
-	  <a class="button" href="/index.xml">Subscribe</a>
+	  <a class="button" href="">Subscribe</a>
 	
 </nav>
 
 
     <main class="main">
       
-<header class="profile">
-    
-        <img class="avatar" alt="avatar" src="/images/avatar.png" />
-    
 
-    <h1>Gautham Krishnan</h1>
-    
-    
-      <h2>another rando that reads, codes and nerds</h2>
-    
-</header>
+<section id="single">
+    <h1 class="title">Basic Git commands and Terminologies</h1>
 
-<div id="list-page">
-    
+    <div class="tip">
+        <time datetime="2023-11-10 00:00:00 &#43;0000 UTC">Nov 10, 2023</time>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          469 words
+        </span>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          3 minute read
+        </span>
+    </div>
+
     
     
         
-        
-        <section class="item">
+  
+    <aside class="toc">
+      <details>
+          <summary>Table of Contents
+          </summary>
           <div>
-            <h1 class="title"><a href='/posts/basic-git-commands-and-terminologies/'>Basic Git commands and Terminologies</a></h1>
-            <div class ="date">
-                <time datetime="2023-11-10 00:00:00 &#43;0000 UTC">Nov 10, 2023</time>  
-            </div>
+              <nav id="TableOfContents">
+  <ul>
+    <li><a href="#git-commands">Git commands</a></li>
+    <li><a href="#merge-conflict">Merge Conflict</a></li>
+    <li><a href="#gitignore-usage"><code>.gitignore</code> usage</a></li>
+  </ul>
+</nav>
           </div>
+      </details>
+    </aside>
+  
 
-          
-              <div class="summary">Git commands 🔗 git init This command is used for initialising the currect directory as a git repository. Currrently, git init -b main is preferred as git switched to main as the primary branch and using this command will initialise the repository with main as the default branch.
-git clone This command is used for cloning a remote repository to the current directory. The full syntax for it is git clone &lt;remote-repository-link&gt;.</div>
-          
 
-        </section>
-    
-        
-        
-        <section class="item">
-          <div>
-            <h1 class="title"><a href='/posts/intro-to-maths-of-neural-networks/'>Intro to Maths of Neural Networks</a></h1>
-            <div class ="date">
-                <time datetime="2023-09-04 00:00:00 &#43;0000 UTC">Sep 4, 2023</time>  
-            </div>
-          </div>
-
-          
-              <div class="summary">Deep Learning and AI have gained a lot of popularity because of the recent advancements in the field showing their capabilities for tasks like image detection, chat completion, image generation etc. At the base of all these models is Artifical Neural Networks(ANN). This article provides a basic understanding of maths and theoretical working of these networks.
-Most of the maths present in this article comes under Linear Algebra and Calculus. Anyone who has done an undergrad course or two on these topics will be familiar with the concepts explained in the article.</div>
-          
-
-        </section>
-    
-        
-        
-        <section class="item">
-          <div>
-            <h1 class="title"><a href='/about/'>About Me</a></h1>
-            <div class ="date">
-                <time datetime="2023-05-20 00:00:00 &#43;0000 UTC">May 20, 2023</time>  
-            </div>
-          </div>
-
-          
-              <div class="summary">Hello there, I see that you’ve come to the my website and is interested in knowing more “About Me”. Well, I’m from Kerala, India and am currently an undergrad student studying Computer Science in Amrita University. I spend time with neural networks and PyTorch when working and linear algebra when studying. If im not doing these two, you’ll find me at my room bending over any wierd fantasy/fiction book or at the beach looking at stray dogs (from a distance).</div>
-          
-
-        </section>
-    
-
-    
-        <div class="pagination">
-          
-          
-          
-              <span class="next">
-                  <a href="/page/2/">
-                      Older posts <span class="arrow">→</span>
-                  </a>
-              </span>
-          
-        </div>
     
 
 
-</div>
+    <div class="content">
+      <h2 id="git-commands">Git commands <a href="#git-commands" class="anchor">🔗</a></h2><ol>
+<li>
+<p><code>git init</code>
+This command is used for initialising the currect directory as a git repository. Currrently, <code>git init -b main</code> is preferred as git switched to <code>main</code> as the primary branch and using this command will initialise the repository with <code>main</code> as the default branch.</p>
+</li>
+<li>
+<p><code>git clone</code>
+This command is used for cloning a remote repository to the current directory. The full syntax for it is <code>git clone &lt;remote-repository-link&gt;</code>.</p>
+</li>
+<li>
+<p><code>git add</code>
+Used for adding files with uncommitted changes to the staging area.</p>
+</li>
+<li>
+<p><code>git commit</code>
+Creates a new commit of the changes present on the staging area.</p>
+</li>
+<li>
+<p><code>git push</code>
+Pushes the local changes to a remote repository.</p>
+</li>
+<li>
+<p><code>git pull</code>
+Pulls the changes from the remote repository to local.</p>
+</li>
+<li>
+<p><code>git fetch</code>
+Fetches the latest changes from a remote repository, but does not merge them into your local repository.</p>
+</li>
+</ol>
+<h2 id="merge-conflict">Merge Conflict <a href="#merge-conflict" class="anchor">🔗</a></h2><p>Merge conflicts occur when combining two branches that have modification on the same part of one or more files.</p>
+<p>Imagine there is a branch, <code>branch-A</code> which you are currently in and another branch<code>branch-B</code>. These two branches have modification to the same part of the same file and we are trying to merge <code>branch-B</code> to <code>branch-A</code>.</p>
+<ol>
+<li>
+<p>To begin the merge operation, run <code>git merge branch-B</code>. Since both the files modify the same part of code, merge conflict will arise.</p>
+</li>
+<li>
+<p>The parts with merge conflicts will be marked</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+</span></span><span style="display:flex;"><span>// Your changes
+</span></span><span style="display:flex;"><span>=======
+</span></span><span style="display:flex;"><span>// Changes from the branch-B
+</span></span><span style="display:flex;"><span>&gt;&gt;&gt;&gt;&gt;&gt;&gt; branch-B
+</span></span></code></pre></div><p>The section between <code>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</code> and <code>=======</code> represents your changes in <code>branch-A</code>, while the section between <code>======</code> and <code>&gt;&gt;&gt;&gt;&gt;&gt;&gt;</code> represents the changes from the <code>branch-B</code>.</p>
+</li>
+<li>
+<p>We can manually clear the merge conflicts by removing the uneeded part of the code along with the conflict markers using a text editor.</p>
+</li>
+<li>
+<p>After that, add the changed files using the command <code>git add &lt;file_name&gt;</code></p>
+</li>
+<li>
+<p>Complete the merge oprations using <code>git merge --continue</code></p>
+</li>
+<li>
+<p>Now we can commit the uncommitted changes using <code>git commit -m &quot;Merge branch-B into branch-A&quot;</code></p>
+</li>
+<li>
+<p>Now the branches are succesfully merged and conflicts resolved.</p>
+</li>
+</ol>
+<h2 id="gitignore-usage"><code>.gitignore</code> usage <a href="#gitignore-usage" class="anchor">🔗</a></h2><p><code>.gitignore</code> is a text file that contains a list of untracked file or directory names that should be ignored by Git. The files/directories that are usually mentioned in <code>.gitignore</code> include:</p>
+<ol>
+<li><strong>Build Artifacts and binaries:</strong> Many times temporary files, binary files, configs etc are generated during the build process and doesnt need to be tracked by Git.
+ex:
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>build/
+</span></span><span style="display:flex;"><span>*.exe
+</span></span><span style="display:flex;"><span>*.o
+</span></span></code></pre></div></li>
+<li><strong>Dependency directories:</strong> The directories where dependencies are stored are usually ignored as they need to be present only locally such as <code>node_modules</code> for npm.</li>
+<li><strong>Configuration and Environment specific files:</strong> These files are usually specific to the environment or should be hidden from the repo for security reasons as it might contain API keys or passwords. <code>.env</code> file where the environment variables are stored is an example of a file that is added to <code>.gitignore</code>.</li>
+</ol>
+
+    </div>
+
+    
+    
+    
+  <div id="comment">
+    
+    
+  </div>
+
+
+</section>
+
 
     </main>
     
