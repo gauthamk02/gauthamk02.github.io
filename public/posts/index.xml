@@ -6,15 +6,15 @@
     <description>Recent content in Posts on Gautham Krishnan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://gauthamk02.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://gauthamk02.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Basic Git commands and Terminologies</title>
-      <link>https://gauthamk02.github.io/posts/basic-git-commands-and-terminologies/</link>
-      <pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate>
+      <title>Winning my first Hackathon</title>
+      <link>https://gauthamk02.github.io/posts/winning-my-first-hackathon/</link>
+      <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://gauthamk02.github.io/posts/basic-git-commands-and-terminologies/</guid>
-      <description>Git commands 🔗 git init This command is used for initialising the currect directory as a git repository. Currrently, git init -b main is preferred as git switched to main as the primary branch and using this command will initialise the repository with main as the default branch.
-git clone This command is used for cloning a remote repository to the current directory. The full syntax for it is git clone &amp;lt;remote-repository-link&amp;gt;.</description>
+      <guid>https://gauthamk02.github.io/posts/winning-my-first-hackathon/</guid>
+      <description>It&amp;rsquo;s been almost a year since the Hackathon and I am finding the motivation to write about it now. I am not sure why it took me so long to write. Probably because I&amp;rsquo;m lazy and the current semester break has left me with some extra time in which I find myself doing the random small things that I have been putting off for a long time.
+Anyway, coming to the Hackathon, it was Hackverse 4.</description>
     </item>
     
     <item>

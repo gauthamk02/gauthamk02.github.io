@@ -1,7 +1,7 @@
 ---
 title: "Basic Git commands and Terminologies"
 date: 2023-11-10
-draft: false
+draft: true
 ---
 
 ## Git commands
