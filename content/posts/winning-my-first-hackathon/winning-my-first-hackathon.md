@@ -1,5 +1,5 @@
 ---
-title: "Winning my first Hackathon"
+title: "Winning My First Hackathon"
 date: 2024-02-10
 draft: false
 ---

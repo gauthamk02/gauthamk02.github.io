@@ -14,7 +14,7 @@ If you are interested in the work I do, check out my GitHub profile [https://git
 ### 1. **Research Intern at TeXNano:**
 I am part of the EUSML project that works on building AI-assissted tools for the Endoscopic Ultrasound(EUS) procedure. EUS is a complicated procedure that takes a lot of time to master and we collect annotated data of the procedure from experienced doctors and are building an AI model that can detect the stomach stations and more accurately in real-time during the procedure. As part of the project, I work on scripts for generating the dataset from raw data, training the models, maintaining the code-base and researching different methods for getting the best result.
 
-### 2. **Research Team Memeber at Tech4Good Lab, UCSC**
+### 2. **Research Team Member at Tech4Good Lab, UCSC**
 I work on the ai-economist project that uses multi-agent reinforcement learning for modelling apprenticeship learning and the effects of subsidies and other government policies on it. We construct diferent scenarios of apprenticeship, mentoring, policies and simulate them using RL to find and interpret the results.
 
 ## Past Works
