@@ -89,7 +89,7 @@ if (!doNotTrack) {
           ·
         </span>
         <span>
-          2228 words
+          2207 words
         </span>
         <span class="split">
           ·
@@ -272,14 +272,17 @@ $$
 = \sigma&rsquo;(o_{j}^k)\sum_{l=1}^n \delta_l^{k+1}w_{lj}^{k+1}
 $$</p>
 <p>Using all the above equations, the general formula for \(\dfrac{\partial \mathbf{E}}{\partial w_{ij}^k}\)is</p>
-<p>$$
-\frac{\partial \mathbf{E}}{\partial w_{ij}^k} =
+<!-- $$
+\usepackage{amsmath}
+\frac{\partial \mathbf{E}}{\partial w_{ij}^k} = 
 \begin{cases}
-(\hat{y} - y)\sigma&rsquo;(o_j)a_i^{k-1},\quad \text{for output nodes} \
-\
-\sigma&rsquo;(o_{j}^k)a_i^{k-1}\sum_{l=1}^n \delta_l^{k+1}w_{lj}^{k+1}, \quad\text{for hidden nodes}
+(\hat{y} - y)\sigma'(o_j)a_i^{k-1},& \text{for output nodes} \\
+\sigma'(o_{j}^k)a_i^{k-1}\sum_{l=1}^n \delta_l^{k+1}w_{lj}^{k+1},& \text{for hidden nodes}
 \end{cases}
-$$</p>
+$$ -->
+<center>
+    <img src=images/backpropagation-full-equation.png width=500>
+</center>
 <p>It can be seen that computing the value of \(\delta_l^{k}\) depends on the errors of the succeeding nodes, the computed values are cached and reused as the compuation of gradients start from the output layers and proceed to the initial layers.</p>
 <blockquote>
 <p>Backpropagation is the most of math intensive and confusing part for simple ANN&rsquo;s such as the ones discussed here. A lot of inspiration on formulating the equations and ordering them was taken from the well written blog <a href="https://brilliant.org/wiki/backpropagation/" target="_blank" rel="noopener">Backpropagation by John McGonagle, George Shaikouski, Christopher Williams, and 3 others</a> present at <a href="https://brilliant.org/" target="_blank" rel="noopener">Brilliant</a>.</p>

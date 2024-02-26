@@ -205,14 +205,17 @@ $$
 
 Using all the above equations, the general formula for \\(\dfrac{\partial \mathbf{E}}{\partial w_{ij}^k}\\)is
 
-$$
+<!-- $$
+\usepackage{amsmath}
 \frac{\partial \mathbf{E}}{\partial w_{ij}^k} = 
 \begin{cases}
-(\hat{y} - y)\sigma'(o_j)a_i^{k-1},\quad \text{for output nodes} \\
-\\
-\sigma'(o_{j}^k)a_i^{k-1}\sum_{l=1}^n \delta_l^{k+1}w_{lj}^{k+1}, \quad\text{for hidden nodes}
+(\hat{y} - y)\sigma'(o_j)a_i^{k-1},& \text{for output nodes} \\
+\sigma'(o_{j}^k)a_i^{k-1}\sum_{l=1}^n \delta_l^{k+1}w_{lj}^{k+1},& \text{for hidden nodes}
 \end{cases}
-$$
+$$ -->
+<center>
+    <img src=images/backpropagation-full-equation.png width=500>
+</center>
 
 It can be seen that computing the value of \\(\delta_l^{k}\\) depends on the errors of the succeeding nodes, the computed values are cached and reused as the compuation of gradients start from the output layers and proceed to the initial layers.
 
