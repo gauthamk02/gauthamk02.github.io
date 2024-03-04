@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <title>Basic Git commands and Terminologies | Gautham Krishnan</title>
+    <title>Bookshelf | Gautham Krishnan</title>
 
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
 <meta name="viewport" content="width=device-width,minimum-scale=1">
-<meta name="description" content="Git commands 🔗 git init This command is used for initialising the currect directory as a git repository. Currrently, git init -b main is preferred as git switched to main as the primary branch and using this command will initialise the repository with main as the default branch.
-git clone This command is used for cloning a remote repository to the current directory. The full syntax for it is git clone &lt;remote-repository-link&gt;.">
+<meta name="description" content="A collection of books that I&rsquo;ve read and found interesting in no particular order along with a short summary and my thoughts on it. I will keep adding to the list as I read more books.
+Guns, Germs and Steel - Jared Diamond (Currently Reading): Explores the reasons for domination of few cultures over others including resource availability, social organization and technological advancements. More detailed and descriptive than Sapines. Will add more details once I finish reading it.">
 <meta name="generator" content="Hugo 0.118.2">
 
 
@@ -83,15 +83,15 @@ if (!doNotTrack) {
       
 
 <section id="single">
-    <h1 class="title">Basic Git commands and Terminologies</h1>
+    <h1 class="title">Bookshelf</h1>
 
     <div class="tip">
-        <time datetime="2023-11-10 00:00:00 &#43;0000 UTC">Nov 10, 2023</time>
+        <time datetime="2024-03-01 00:00:00 &#43;0000 UTC">Mar 1, 2024</time>
         <span class="split">
           ·
         </span>
         <span>
-          469 words
+          605 words
         </span>
         <span class="split">
           ·
@@ -105,100 +105,33 @@ if (!doNotTrack) {
     
         
   
-    <aside class="toc">
-      <details>
-          <summary>Table of Contents
-          </summary>
-          <div>
-              <nav id="TableOfContents">
-  <ul>
-    <li><a href="#git-commands">Git commands</a></li>
-    <li><a href="#merge-conflict">Merge Conflict</a></li>
-    <li><a href="#gitignore-usage"><code>.gitignore</code> usage</a></li>
-  </ul>
-</nav>
-          </div>
-      </details>
-    </aside>
-  
 
 
     
 
 
     <div class="content">
-      <h2 id="git-commands">Git commands <a href="#git-commands" class="anchor">🔗</a></h2><ol>
-<li>
-<p><code>git init</code>
-This command is used for initialising the currect directory as a git repository. Currrently, <code>git init -b main</code> is preferred as git switched to <code>main</code> as the primary branch and using this command will initialise the repository with <code>main</code> as the default branch.</p>
-</li>
-<li>
-<p><code>git clone</code>
-This command is used for cloning a remote repository to the current directory. The full syntax for it is <code>git clone &lt;remote-repository-link&gt;</code>.</p>
-</li>
-<li>
-<p><code>git add</code>
-Used for adding files with uncommitted changes to the staging area.</p>
-</li>
-<li>
-<p><code>git commit</code>
-Creates a new commit of the changes present on the staging area.</p>
-</li>
-<li>
-<p><code>git push</code>
-Pushes the local changes to a remote repository.</p>
-</li>
-<li>
-<p><code>git pull</code>
-Pulls the changes from the remote repository to local.</p>
-</li>
-<li>
-<p><code>git fetch</code>
-Fetches the latest changes from a remote repository, but does not merge them into your local repository.</p>
-</li>
-</ol>
-<h2 id="merge-conflict">Merge Conflict <a href="#merge-conflict" class="anchor">🔗</a></h2><p>Merge conflicts occur when combining two branches that have modification on the same part of one or more files.</p>
-<p>Imagine there is a branch, <code>branch-A</code> which you are currently in and another branch<code>branch-B</code>. These two branches have modification to the same part of the same file and we are trying to merge <code>branch-B</code> to <code>branch-A</code>.</p>
-<ol>
-<li>
-<p>To begin the merge operation, run <code>git merge branch-B</code>. Since both the files modify the same part of code, merge conflict will arise.</p>
-</li>
-<li>
-<p>The parts with merge conflicts will be marked</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
-</span></span><span style="display:flex;"><span>// Your changes
-</span></span><span style="display:flex;"><span>=======
-</span></span><span style="display:flex;"><span>// Changes from the branch-B
-</span></span><span style="display:flex;"><span>&gt;&gt;&gt;&gt;&gt;&gt;&gt; branch-B
-</span></span></code></pre></div><p>The section between <code>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</code> and <code>=======</code> represents your changes in <code>branch-A</code>, while the section between <code>======</code> and <code>&gt;&gt;&gt;&gt;&gt;&gt;&gt;</code> represents the changes from the <code>branch-B</code>.</p>
-</li>
-<li>
-<p>We can manually clear the merge conflicts by removing the uneeded part of the code along with the conflict markers using a text editor.</p>
-</li>
-<li>
-<p>After that, add the changed files using the command <code>git add &lt;file_name&gt;</code></p>
-</li>
-<li>
-<p>Complete the merge oprations using <code>git merge --continue</code></p>
-</li>
-<li>
-<p>Now we can commit the uncommitted changes using <code>git commit -m &quot;Merge branch-B into branch-A&quot;</code></p>
-</li>
-<li>
-<p>Now the branches are succesfully merged and conflicts resolved.</p>
-</li>
-</ol>
-<h2 id="gitignore-usage"><code>.gitignore</code> usage <a href="#gitignore-usage" class="anchor">🔗</a></h2><p><code>.gitignore</code> is a text file that contains a list of untracked file or directory names that should be ignored by Git. The files/directories that are usually mentioned in <code>.gitignore</code> include:</p>
-<ol>
-<li><strong>Build Artifacts and binaries:</strong> Many times temporary files, binary files, configs etc are generated during the build process and doesnt need to be tracked by Git.
-ex:
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>build/
-</span></span><span style="display:flex;"><span>*.exe
-</span></span><span style="display:flex;"><span>*.o
-</span></span></code></pre></div></li>
-<li><strong>Dependency directories:</strong> The directories where dependencies are stored are usually ignored as they need to be present only locally such as <code>node_modules</code> for npm.</li>
-<li><strong>Configuration and Environment specific files:</strong> These files are usually specific to the environment or should be hidden from the repo for security reasons as it might contain API keys or passwords. <code>.env</code> file where the environment variables are stored is an example of a file that is added to <code>.gitignore</code>.</li>
-</ol>
+      <p>A collection of books that I&rsquo;ve read and found interesting in no particular order along with a short summary and my thoughts on it. I will keep adding to the list as I read more books.</p>
+<p><strong>Guns, Germs and Steel - Jared Diamond (Currently Reading):</strong>
+<br> Explores the reasons for domination of few cultures over others including resource availability, social organization and technological advancements. More detailed and descriptive than Sapines. Will add more details once I finish reading it.</p>
+<p><strong>Siddartha - Herman Hesse:</strong>
+<br>Follows the story of a child prodigy as he embarks on a travel seeking spirtuality and meaning. He goes on to become an ascetic, then a bussinessman indulging in all the pleasures and again begins to lead a saintly life on a river bank where he was able to find peace. A classical piece of literature that explores the concepts of eastern philosphy.</p>
+<p><strong>Animal Farm - George Orwell:</strong>
+<br>A satirical novel on a bunch of farm animals taking over the control of a farm in hope of creating an equal and just place but slowly spirals into a totalitarian system. Contains phrases like &ldquo;All animals are equal, but some animals are more equal than others.&rdquo; that are occassionally used in discussions as a reference to class inequality. A good read exploring the ideas of revolutions, authoritarianism and crowd manipulation in a satirical way.</p>
+<p><strong>Sapiens - Yuval Noah Harari:</strong>
+<br>Explains many aspects for human development, evolution and formation of modern societies in an immersive way. An insightful book containing many thought provoking topics and a recommended read for interested people to get a general understanding of human history.</p>
+<p><strong>A Man&rsquo;s Search for Meaning - Viktor E. Frankl:</strong>
+<br> A memoir by Viktor Frankl on his life as a prisoner in Nazi concentration camps and his psychotherapeutic method of finding a reason to live. Goes into details about the psychological effects of the camp on the prisoners and the importance of finding meaning in life. Similar to &ldquo;The Diary of a Young Girl&rdquo; by Anne Frank, this books talks about the horros of he holocause but from a different prespective.</p>
+<p><strong>1984 - George Orwell:</strong>
+<br>A masterpeice by George Orwell. A dystopian novel set in a totalitarian society where the government has complete control over the people. Highly thought provoking and draws parallel to the current world in many aspects. Like Animal Farm, references from this book are often used in political discussions.</p>
+<p><strong>Lord of the Rings Trilogy: J.R.R Tolkein</strong>
+<br>Absolute banger of a fantasy novel with exceptional world setting containing different races, languages and cultures with detailed descrption about them. Follows a story line spanning thousands of years and morally distinct sides where the charcters are generally either good or bad instead of the modern grey characters. A must read for any fantasy fan.</p>
+<p><strong>The Silmarillion - J.R.R Tolkein</strong>
+<br>Explores the history of the middle earth and the creation of the world where LOTR takes place. A bit hard to read due to the complexity of the world and the number of characters. The story mostly revolves around elves and their history as oppossed to the race of men in LOTR.</p>
+<p><strong>The Hobbit - J.R.R Tolkein</strong>
+<br>The prequel to the LOTR series. A light hearted adventure novel with a simple story of a hobbit going on an adevnture with a group of dwarves. Recommended read before starting the LOTR series.</p>
+<p><strong>Farenheit 451 - Ray Bradbury</strong>
+<br> a Dystopian novel similar to 1984 and Brave New World. The story is set in a future where books are banned and firemen are employed to burn any books found. A simpler story compared to 1984 but still a good read.</p>
 
     </div>
 
