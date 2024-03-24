@@ -1,13 +1,13 @@
 ---
 title: "Bookshelf"
 date: 2024-03-01
-draft: true # set draft as true to not display it in the home page after running hugo server with -D flag
+draft: false # set draft as true to not display it in the home page after running hugo server with -D flag
 ---
 
 A collection of books that I've read and found interesting in no particular order along with a short summary and my thoughts on it. I will keep adding to the list as I read more books.
 
 **Guns, Germs and Steel - Jared Diamond (Currently Reading):**
-<br> Explores the reasons for domination of few cultures over others including resource availability, social organization and technological advancements. More detailed and descriptive than Sapines. Will add more details once I finish reading it.
+<br> Explores the reasons for domination of few cultures over others including resource availability, social organization and technological advancements. More detailed and descriptive than Sapiens. Will add more details once I finish reading it.
 
 **Siddartha - Herman Hesse:**
 <br>Follows the story of a child prodigy as he embarks on a travel seeking spirtuality and meaning. He goes on to become an ascetic, then a bussinessman indulging in all the pleasures and again begins to lead a saintly life on a river bank where he was able to find peace. A classical piece of literature that explores the concepts of eastern philosphy. 
