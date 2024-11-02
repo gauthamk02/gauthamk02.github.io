@@ -62,16 +62,16 @@ Researched different methods of Sample Size Determination to predict the sample 
 
 <ul class="tl-list">
     <li>
+        ➔ <strong>Joined TeXNano as a Research Intern</strong>
+        <p>Working on building AI-assisted tools for the Endoscopic Ultrasound(EUS) procedure as part of EUS-ML project.</p>
+    </li>
+    <li>
         ➔ <strong>Got Selected for Google Summer of Code with DeepChem</strong>  
         <p>Integrated torch.compile into the library over the summer as part of the program.</p>
     </li>
     <li>
         ➔ <strong>Gave a talk on the Transformer Architecture</strong>
         <p>Presented a talk on the working of LLMs and the Transformer architecture in FOSS United Kochi Meetup.</p>
-    </li>
-    <li>
-        ➔ <strong>Joined TeXNano as a Research Intern</strong>
-        <p>Working on building AI-assisted tools for the Endoscopic Ultrasound(EUS) procedure as part of EUS-ML project.</p>
     </li>
 </ul>
 
@@ -88,7 +88,7 @@ Researched different methods of Sample Size Determination to predict the sample 
     </li>
     <li>
         ➔ <strong>Won Hackverse 4.0</strong>
-        <p>Won the hackathon organsied by NITK Surathkal and Devfolio by building interactive story teller app.</p>
+        <p>First prize winners of the hackathon, Hackverse 4.0, organsied by NITK Surathkal and Devfolio.</p>
     </li>
     <li>
         ➔ <strong>Joined EUS-ML project</strong>
