@@ -1,0 +1,19 @@
+---
+title: "Links"
+date: 2025-05-10
+draft: false # set draft as true to not display it in the home page after running hugo server with -D flag
+---
+
+A collection of links to the interesting things I find on the internet.
+
+## Blogs
+1. [They're Made out of Meat](https://www.mit.edu/people/dpolicar/writing/prose/text/thinkingMeat.html)
+2. [Cities and Ambition - Paul Graham](https://paulgraham.com/cities.html)
+3. [What Should You Do with Your Life? Directions and Advice](https://guzey.com/personal/what-should-you-do-with-your-life/)
+4. [Is God a Taoist?](https://www.mit.edu/people/dpolicar/writing/prose/text/godTaoist.html)
+
+<!-- 
+## Tweets
+
+1. [# on shortification of "learning" - Andrej Karpathy](https://x.com/karpathy/status/1756380066580455557)
+2. [Go for a run](https://x.com/amor_fatti/status/1843830386746634591) -->

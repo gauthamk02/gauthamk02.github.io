@@ -82,6 +82,8 @@ params:
       path: /posts
     - name: Bookshelf
       path: /bookshelf
+    - name: Links
+      path: /links
     # - name: CV
     #   path: https://drive.google.com/file/d/1m1Tbe-himD18DG0xv2gzxOKHdKMI3H5-/view?usp=sharing
   # You can put your custom css and js to `static` directory, or use remote css and js files which start with `http://` or `https://`
