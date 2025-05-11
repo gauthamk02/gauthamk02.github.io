@@ -11,6 +11,7 @@ A collection of links to the interesting things I find on the internet.
 2. [Cities and Ambition - Paul Graham](https://paulgraham.com/cities.html)
 3. [What Should You Do with Your Life? Directions and Advice](https://guzey.com/personal/what-should-you-do-with-your-life/)
 4. [Is God a Taoist?](https://www.mit.edu/people/dpolicar/writing/prose/text/godTaoist.html)
+5. [Just know stuff](https://kidger.site/thoughts/just-know-stuff/)
 
 <!-- 
 ## Tweets
