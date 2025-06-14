@@ -15,6 +15,9 @@ A collection of books that I've read and found interesting in no particular orde
 **Animal Farm - George Orwell:**
 <br>A satirical novel on a bunch of farm animals taking over the control of a farm in hope of creating an equal and just place but slowly spirals into a totalitarian system. Contains phrases like "All animals are equal, but some animals are more equal than others." that are occassionally used in discussions as a reference to class inequality. A good read exploring the ideas of revolutions, authoritarianism and crowd manipulation in a satirical way.
 
+**The Old Man and the Sea - Ernest Hemingway:**
+<br>A short story about an old fisherman that goes fishing alone in his skiff. The story explores the themes of loneliness, perseverance and the struggle of man against nature. It is good short read.
+
 **White Nights - Fyodor Dostoevsky:**
 <br>A short story about a lonely dreamer in St. Petersburg who meets a similarly lonely young woman over four nights. The narrator's intense emotional journey from isolation to hope and eventual heartbreak is beautifully captured through Dostoevsky's introspective writing. This is the first work of Dostoevsky that I read and the portrayal of the human emotions in such a raw form was new to me.
 
