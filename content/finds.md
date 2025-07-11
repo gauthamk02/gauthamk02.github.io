@@ -15,11 +15,13 @@ A collection of links to the interesting things I find on the internet.
 6. [Smart Questions](http://www.catb.org/~esr/faqs/smart-questions.html)
 
 ## Websites
-1. [Fucking website](https://motherfuckingwebsite.com/)
+1. [Folklore](https://www.folklore.org/0-index.html)
+2. [Fucking website](https://motherfuckingwebsite.com/)
 
 
-## Tweets
+## Tweetss
 
 1. [# on shortification of "learning" - Andrej Karpathy](https://x.com/karpathy/status/1756380066580455557)
 2. [Neural network optimization mystry](https://x.com/Shalev_lif/status/1939101231357599812)
-2. [Go for a run](https://x.com/amor_fatti/status/1843830386746634591)
+3. [Go for a run](https://x.com/amor_fatti/status/1843830386746634591)
+4. [Living Code](https://x.com/thesephist/status/1891326163953344524)
