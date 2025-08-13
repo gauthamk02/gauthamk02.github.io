@@ -11,7 +11,7 @@ defaultContentLanguage: en
 
 hasCJKLanguage: true
 permalinks:
-  posts: /posts/:title/
+  posts: /posts/:slugorcontentbasename/
 
 # paginate: 3
 

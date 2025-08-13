@@ -13,9 +13,29 @@ ul.tl-list li p {
   padding-left: 20px;
 }
 
-.about-hr {
+.hr-dark {
   margin-top: 0; 
-  margin-bottom: 5;
+  margin-bottom: 10px;
   border: none;
   border-top: 2px solid #4e4e4e;
+}
+
+.hr-light {
+  margin-top: 0; 
+  margin-bottom: 10px;
+  border: none;
+  border-top: 2px solid #bbbbbb;
+}
+
+/* Remove bottom padding from images */
+.markdown-image {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+/* Hide empty paragraph tags that cause unwanted spacing */
+p:empty {
+  display: none;
+  margin: 0;
+  padding: 0;
 }

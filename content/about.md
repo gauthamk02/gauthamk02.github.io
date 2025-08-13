@@ -21,7 +21,7 @@ If you are interested in the work I do, check out my GitHub profile [https://git
 
 ## My Works
 <!-- increase tgickness of the line -->
-<hr class="about-hr">
+<hr class="hr-dark">
 
 <div style="display: flex; justify-content: space-between;">
   <h3 style="margin: 0; font-weight: bold;">Research Intern at TeXNano</h3>
@@ -56,7 +56,7 @@ Researched different methods of Sample Size Determination to predict the sample 
 
 
 ## Timeline
-<hr class="about-hr">
+<hr class="hr-dark">
 
 ### 2024
 
