@@ -251,7 +251,7 @@ Each conversation, however short, contributed to who I am today. I carry forward
 
 I also want to acknowledge the countless creative individuals I've encountered online throughout these years. From developers sharing their unique projects to writers crafting thoughtful reflections and artists displaying their creations, these internet strangers became unexpected sources of motivation. Their willingness to share their work and perspectives pushed me to think differently, develop my own taste, and pursue approaches that felt authentically mine.
 
-Thank you again for reading this and being part of this journey.
+Thank you again for reading this and being part of the journey.
 
 നന്ദി, വിട.
 
