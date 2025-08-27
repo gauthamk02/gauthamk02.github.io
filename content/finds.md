@@ -25,3 +25,6 @@ A collection of links to the interesting things I find on the internet.
 2. [Neural network optimization mystry](https://x.com/Shalev_lif/status/1939101231357599812)
 3. [Go for a run](https://x.com/amor_fatti/status/1843830386746634591)
 4. [Living Code](https://x.com/thesephist/status/1891326163953344524)
+
+## Videos
+1. [history of the entire world, i guess](https://www.youtube.com/watch?v=xuCn8ux2gbs)
