@@ -8,13 +8,13 @@ showToc: false
 
 The following is a short introduction thats meant to give a general info about me to the people that stumble on this site.
 
-Natively from Kerala, India, I'm currently a final year undergrad student studying Computer Science in Amrita University, Amritapuri — a beautiful coastal town where serene beaches, lush greenery and activities in the nearby ashram provide an inspiring backdrop for my life here.
+I'm working as a Deep Learning Engineer in Medical-AI, after recently graduating with my bachelor's in Computer Science from Amrita University, Amritapuri. I continue to reside in Amritapuri, a serene coastal town where the beaches, lush greenery, and nearby ashram create an inspiring environment.
 
-I spend time with neural networks and PyTorch when working and linear algebra when studying. This has allowed me to work on many interesting research and open-source projects in the field of AI. Currently I am working on a Medical-AI Research project and have also contributed to [DeepChem](https://deepchem.io/) as part of Google Summer of Code 2024. 
+During my undergraduate studies, I spent time with Neural Networks and PyTorch when working and linear algebra when studying. This led me to work on many interesting research and open-source projects in AI, including a contribution to [DeepChem](https://deepchem.io/) as part of Google Summer of Code 2024.
 
-I read a lot of books, blogs, papers and am always looking for new things to learn — checkout my [Bookshelf](/bookshelf) to see what I've been reading lately. I also play table tennis, swim and go kayaking. Apart from English, I know Malayalam and am currently learning Hindi using Duolingo and by talking to friends. Talk to me about Deep Learning(AI), Tech Stuff, Philosophy, Movies, Books, Dogs, or anything that you find interesting. I'm always up for a good conversation. 
+I read a lot of books, blogs, papers and am always looking for new things to learn — checkout my [Bookshelf](/bookshelf) to see what I've been reading lately. I also play table tennis, swim, kayak—and I'm an avid fan of Wes Anderson movies. Apart from English, I know Malayalam and am currently learning Hindi using Duolingo and by talking to friends. Talk to me about Deep Learning(AI), Tech Stuff, Philosophy, Movies, Books, Dogs, or anything that you find interesting. I'm always up for a good conversation. 
 
-I'm an active member and mentor of the student-run FOSS club, [amFOSS](https://amfoss.in), where I stay back after college to work on my projects, particpate for hackathons and organise events. Being a part of this club has helped me get exposed to the tech world and allowed me to meet and interact with a lot of amazing people.
+I'm was active member and mentor of the student-run FOSS club, [amFOSS](https://amfoss.in), where I stayed back after classes to work on my projects, particpate for hackathons and organise events. Being a part of this club helped me get exposed to the tech world and allowed me to meet and interact with a lot of amazing people.
 
 If you are interested in the work I do, check out my GitHub profile [https://github.com/gauthamk02](https://github.com/gauthamk02) or my [CV](https://drive.google.com/file/d/1m1Tbe-himD18DG0xv2gzxOKHdKMI3H5-/view?usp=sharing). You can reach out to me at [gauthamkrishnanpriya@gmail.com](mailto:gauthamkrishnanpriya@gmail.com). Also follow me on Twitter [@gaushn_](https://twitter.com/gaushn_) to read my random thougths and rants.
 
