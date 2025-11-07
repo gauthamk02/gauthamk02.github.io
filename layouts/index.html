@@ -1,0 +1,51 @@
+{{ define "main" }}
+{{ partial "profile.html" . }}
+
+{{ $showRecentPosts := .Params.showRecentPosts }}
+{{ $rawContent := .RawContent }}
+{{ $hasShortcode := or (in $rawContent "{{< recent-posts") (in $rawContent "{{% recent-posts") }}
+
+{{ if $hasShortcode }}
+{{ $shortcodePattern := "{{< recent-posts" }}
+{{ if not (in $rawContent $shortcodePattern) }}
+{{ $shortcodePattern = "{{% recent-posts" }}
+{{ end }}
+{{ $parts := split $rawContent $shortcodePattern }}
+{{ $beforeShortcode := index $parts 0 }}
+{{ $afterParts := split (index $parts 1) ">}}" }}
+{{ $afterShortcode := index $afterParts 1 }}
+
+{{ if $beforeShortcode }}
+<section id="single">
+    <div class="content">
+        {{ $beforeShortcode | markdownify }}
+    </div>
+</section>
+{{ end }}
+
+{{ partial "recent-posts-list.html" . }}
+
+{{ if $afterShortcode }}
+<section id="single">
+    <div class="content">
+        {{ $afterShortcode | markdownify }}
+    </div>
+</section>
+{{ end }}
+
+{{ else }}
+{{ if .Content }}
+<section id="single">
+    <div class="content">
+        {{ .Content }}
+    </div>
+</section>
+{{ end }}
+
+{{ if ne $showRecentPosts false }}
+{{ partial "recent-posts-list.html" . }}
+{{ end }}
+{{ end }}
+
+{{ end }}
+
