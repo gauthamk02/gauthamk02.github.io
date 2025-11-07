@@ -50,11 +50,11 @@ social:
 # Site parameters
 params:
   # Site Author
-  author: Gautham Krishnan
+  author: Gautham Krishnan P
   # Author biography
-  bio: another rando that reads, codes and nerds
+  bio: i do stuff, sometimes it works
   # Site Description, used in HTML meat
-  description: My Blog
+  description: Gautham's Personal Website
 
 
   ###########################################
