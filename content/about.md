@@ -8,13 +8,11 @@ showToc: false
 
 The following is a short introduction thats meant to give a general info about me to the people that stumble on this site.
 
-I'm working as a Deep Learning Engineer in Medical-AI, after recently graduating with my bachelor's in Computer Science from Amrita University, Amritapuri. I continue to reside in Amritapuri, a serene coastal town where the beaches, lush greenery, and nearby ashram create an inspiring environment.
+I'm a Deep Learning Engineer working in Medical AI, having recently graduated with a bachelor's in Computer Science from Amrita University, Amritapuri. I continue to live in Amritapuri, a serene coastal town on the Kerala coast, where beaches, lush greenery, and the ashram create an inspiring atmosphere.
 
-During my undergraduate studies, I spent time with Neural Networks and PyTorch when working and linear algebra when studying. This led me to work on many interesting research and open-source projects in AI, including a contribution to [DeepChem](https://deepchem.io/) as part of Google Summer of Code 2024.
+I read a lot of books, blogs, papers and am always looking for new things to learn — check out my [Bookshelf](/bookshelf) to see what I've been reading lately. I also play table tennis, swim, blog, kayak, and occasionally watch movies, with Wes Anderson films being my current obsession. Apart from English, I know Malayalam and am currently learning Hindi using Duolingo and by talking to friends. Talk to me about Deep Learning, tech, philosophy, movies, books, dogs, or anything you find interesting. I'm always up for a good conversation.
 
-I read a lot of books, blogs, papers and am always looking for new things to learn — checkout my [Bookshelf](/bookshelf) to see what I've been reading lately. I also play table tennis, swim, kayak—and I'm an avid fan of Wes Anderson movies. Apart from English, I know Malayalam and am currently learning Hindi using Duolingo and by talking to friends. Talk to me about Deep Learning(AI), Tech Stuff, Philosophy, Movies, Books, Dogs, or anything that you find interesting. I'm always up for a good conversation. 
-
-I'm was active member and mentor of the student-run FOSS club, [amFOSS](https://amfoss.in), where I stayed back after classes to work on my projects, particpate for hackathons and organise events. Being a part of this club helped me get exposed to the tech world and allowed me to meet and interact with a lot of amazing people.
+During my undergraduate studies, I worked on many interesting research and open-source projects in AI, including contributing to [DeepChem](https://deepchem.io/) as part of Google Summer of Code 2024. I was also an active member and mentor of the student-run FOSS club, [amFOSS](https://amfoss.in), where I stayed back after classes to work on my projects, particpate for hackathons and organise events. Being a part of this club helped me get exposed to the tech world and allowed me to meet and interact with a lot of amazing people.
 
 If you are interested in the work I do, check out my GitHub profile [https://github.com/gauthamk02](https://github.com/gauthamk02) or my [CV](https://drive.google.com/file/d/1m1Tbe-himD18DG0xv2gzxOKHdKMI3H5-/view?usp=sharing). You can reach out to me at [gauthamkrishnanpriya@gmail.com](mailto:gauthamkrishnanpriya@gmail.com). Also follow me on Twitter [@gaushn_](https://twitter.com/gaushn_) to read my random thougths and rants.
 
@@ -28,7 +26,7 @@ If you are interested in the work I do, check out my GitHub profile [https://git
   <h3 style="margin: 0; font-weight: bold;">May 2023 – Present</h3>
 </div>
 
-Member of the EUSML project that works on building AI-assissted tools for the Endoscopic Ultrasound(EUS) procedure. EUS is a complicated procedure that takes a lot of time to master and we collect annotated data of the procedure from experienced doctors and are building an AI model that can detect the stomach stations accurately in real-time during the procedure. My responsibilities in the project include maintaining the dataset generation pipeline, model training/evaluation, researching new & existing methods, and maintaining the codebase.
+Member of the EUSML project that works on building AI-assissted tools for the Endoscopic Ultrasound(EUS) procedure. EUS is a complicated procedure that takes a lot of time to master and we collect annotated data of the procedure from experienced doctors and are building an AI model that can identify and segment pancreas, tumors and also detect cancer in real-time. My responsibilities in the project include maintaining the dataset generation pipeline, model training/evaluation, researching new & existing methods, and maintaining the codebase.
 
 <div style="display: flex; justify-content: space-between;">
   <h3 style="margin: 0; font-weight: bold;">Google Summer of Code 2024, DeepChem</h3>
