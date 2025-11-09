@@ -39,3 +39,137 @@ p:empty {
   margin: 0;
   padding: 0;
 }
+
+/* Responsive styles for recent posts section */
+@media (max-width: 700px) {
+  #list-page {
+    padding: 0 18px;
+  }
+
+  #list-page .item {
+    margin: 24px 0;
+  }
+
+  #list-page .item > div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #list-page .title {
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  #list-page .date {
+    width: 100%;
+    float: none;
+    text-align: left;
+    position: static;
+    margin-top: 4px;
+    font-size: 14px;
+  }
+
+  #list-page .summary {
+    margin-top: 8px;
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  #list-page {
+    padding: 0 12px;
+  }
+
+  #list-page .title {
+    font-size: 16px;
+  }
+
+  #list-page .date {
+    font-size: 13px;
+  }
+}
+
+/* Responsive styles for navigation bar */
+@media (max-width: 700px) {
+  nav.navigation {
+    padding: 15px 10px 10px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+
+  nav.navigation a {
+    position: static;
+    display: inline-block;
+    padding: 10px 14px;
+    font-size: 14px;
+    margin: 0;
+    min-width: auto;
+  }
+
+  nav.navigation a.button,
+  nav.navigation a.CVbutton {
+    margin: 0;
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  nav.navigation {
+    padding: 12px 8px 8px;
+    gap: 6px;
+  }
+
+  nav.navigation a {
+    padding: 8px 12px;
+    font-size: 13px;
+  }
+
+  nav.navigation a.button,
+  nav.navigation a.CVbutton {
+    padding: 8px 14px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  nav.navigation {
+    padding: 10px 6px 6px;
+    gap: 4px;
+  }
+
+  nav.navigation a {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+
+  nav.navigation a.button,
+  nav.navigation a.CVbutton {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 360px) {
+  nav.navigation {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  nav.navigation a {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  nav.navigation a.button,
+  nav.navigation a.CVbutton {
+    width: auto;
+    min-width: 100px;
+  }
+}
