@@ -29,3 +29,4 @@ A collection of links to the interesting things I find on the internet.
 
 ## Videos
 1. [history of the entire world, i guess](https://www.youtube.com/watch?v=xuCn8ux2gbs)
+2. [Unlimited Rice Pudding](https://www.youtube.com/watch?v=wPODghAr3Vc)
