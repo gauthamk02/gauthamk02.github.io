@@ -1,8 +1,121 @@
 nav.navigation a.CVbutton {
-    background: #f05b5b;
-    color: #fff;
-    margin-left: 12px;
+  background: #f05b5b;
+  color: #fff;
+  margin-left: 12px;
+}
+
+/* ========================================
+   RESPONSIVE HAMBURGER NAVIGATION (CSS-only)
+   ======================================== */
+
+/* Hidden checkbox */
+.nav-toggle {
+  display: none !important;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+/* Hamburger icon - hidden on desktop */
+.hamburger {
+  display: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1001;
+}
+
+.hamburger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: #5badf0;
+  margin: 5px 0;
+  transition: 0.3s;
+}
+
+/* Nav links - inline on desktop */
+.nav-links {
+  display: inline;
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+  nav.navigation {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
   }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 10px 0;
+    flex-direction: column;
+  }
+
+  .nav-links a {
+    display: block;
+    padding: 12px 20px;
+    color: #404040;
+    border-bottom: 1px solid #eee;
+  }
+
+  .nav-links a:last-child {
+    border-bottom: none;
+  }
+
+  .nav-links a:hover {
+    background: #f5f5f5;
+  }
+
+  .nav-links a.CVbutton,
+  .nav-links a.button {
+    background: none !important;
+    color: #5badf0 !important;
+    margin: 0;
+    padding: 12px 20px;
+    text-align: right;
+    border-bottom: 1px solid #eee;
+    border-radius: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .nav-links a.CVbutton:last-child,
+  .nav-links a.button:last-child {
+    border-bottom: none;
+  }
+
+  /* Show nav when checkbox is checked */
+  .nav-toggle:checked ~ .nav-links {
+    display: flex;
+  }
+
+  /* Animate hamburger to X */
+  .nav-toggle:checked ~ .hamburger span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .nav-toggle:checked ~ .hamburger span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .nav-toggle:checked ~ .hamburger span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+}
 
 ul.tl-list {
   list-style-type: none;
@@ -90,86 +203,20 @@ p:empty {
   }
 }
 
-/* Responsive styles for navigation bar */
-@media (max-width: 700px) {
+/* Responsive styles for navigation bar - tablet */
+@media (max-width: 700px) and (min-width: 601px) {
   nav.navigation {
-    padding: 15px 10px 10px;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
+    padding: 15px 15px 10px;
   }
 
-  nav.navigation a {
-    position: static;
-    display: inline-block;
-    padding: 10px 14px;
-    font-size: 14px;
-    margin: 0;
-    min-width: auto;
-  }
-
-  nav.navigation a.button,
-  nav.navigation a.CVbutton {
-    margin: 0;
-    padding: 10px 16px;
-    font-size: 14px;
-  }
-}
-
-@media (max-width: 600px) {
-  nav.navigation {
-    padding: 12px 8px 8px;
-    gap: 6px;
-  }
-
-  nav.navigation a {
-    padding: 8px 12px;
-    font-size: 13px;
-  }
-
-  nav.navigation a.button,
-  nav.navigation a.CVbutton {
-    padding: 8px 14px;
-    font-size: 13px;
-  }
-}
-
-@media (max-width: 480px) {
-  nav.navigation {
-    padding: 10px 6px 6px;
-    gap: 4px;
-  }
-
-  nav.navigation a {
+  nav.navigation .nav-links a {
     padding: 8px 10px;
-    font-size: 12px;
+    font-size: 14px;
   }
 
-  nav.navigation a.button,
-  nav.navigation a.CVbutton {
-    padding: 8px 12px;
-    font-size: 12px;
-  }
-}
-
-@media (max-width: 360px) {
-  nav.navigation {
-    flex-direction: column;
-    gap: 6px;
-  }
-
-  nav.navigation a {
-    width: 100%;
-    text-align: center;
-    padding: 10px;
-  }
-
-  nav.navigation a.button,
-  nav.navigation a.CVbutton {
-    width: auto;
-    min-width: 100px;
+  nav.navigation .nav-links a.button,
+  nav.navigation .nav-links a.CVbutton {
+    padding: 8px 14px;
+    font-size: 14px;
   }
 }
