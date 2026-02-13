@@ -56,6 +56,21 @@ Researched different methods of Sample Size Determination to predict the sample 
 ## Timeline
 <hr class="hr-dark">
 
+### 2025
+<ul class="tl-list">
+    <li>
+        ➔ <strong>Graduated from Amrita University</strong>
+        <p>Graduated from Amrita University with a bachelor's degree in Computer Science.</p>
+    </li>
+</ul>
+
+<ul class="tl-list">
+    <li>
+        ➔ <strong>Joined TeXNano as a Research Engineer</strong>
+        <p>Joined as full-time Research Engineer. Worked on multiple Medical AI projects.</p>
+    </li>
+</ul>
+
 ### 2024
 
 <ul class="tl-list">
