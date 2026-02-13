@@ -220,3 +220,111 @@ p:empty {
     font-size: 14px;
   }
 }
+
+/* ========================================
+   Reference tooltips [1], [2], etc.
+   ======================================== */
+
+/* Allow tooltips to escape content area */
+#single .content {
+  overflow: visible;
+}
+
+/* Inline reference [1], [2] – trigger */
+.ref-tooltip-trigger {
+  cursor: help;
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px dotted #888;
+  padding: 0 1px;
+}
+
+.ref-tooltip-trigger:hover {
+  border-bottom-color: #5badf0;
+  color: #5badf0;
+}
+
+/* Container: inline-block so absolute child is out of flow on all devices (fixes mobile) */
+.ref-tooltip-wrap {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+
+.ref-tooltip-wrap:hover,
+.ref-tooltip-wrap:focus-within {
+  z-index: 10000;
+}
+
+/* Tooltip box – hidden by default: off-screen and collapsed so it never appears inline */
+.ref-tooltip-box {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+  max-width: none;
+  overflow: hidden;
+  font-size: 0.9em;
+  line-height: 1.5;
+  color: #333;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  z-index: 10000;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.15s ease, visibility 0.15s ease;
+  word-break: normal;
+  overflow-wrap: normal;
+  white-space: normal;
+  text-align: left;
+}
+
+/* Only when shown: real position, size, and interactive */
+.ref-tooltip-trigger:hover + .ref-tooltip-box,
+.ref-tooltip-wrap:hover .ref-tooltip-box,
+.ref-tooltip-trigger:focus + .ref-tooltip-box,
+.ref-tooltip-trigger:focus-visible + .ref-tooltip-box,
+.ref-tooltip-trigger + .ref-tooltip-box.visible,
+.ref-tooltip-box.tooltip-visible {
+  left: 50%;
+  top: auto;
+  bottom: 100%;
+  width: max-content;
+  height: auto;
+  min-width: 260px;
+  max-width: min(360px, 90vw);
+  max-height: 280px;
+  margin-bottom: 6px;
+  padding: 12px 14px;
+  overflow: auto;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateX(-50%);
+}
+
+.ref-tooltip-box a {
+  color: #5badf0;
+}
+
+/* Keep tooltip content flowing normally (lists, paragraphs) */
+.ref-tooltip-box p,
+.ref-tooltip-box li,
+.ref-tooltip-box ul {
+  word-break: normal;
+  overflow-wrap: normal;
+  white-space: normal;
+  text-align: left;
+}
+
+.ref-tooltip-box ul {
+  padding-left: 1.2em;
+  margin: 0.25em 0;
+}

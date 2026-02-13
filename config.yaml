@@ -102,5 +102,5 @@ params:
     # - https://example.com/custom.css # remote css
   customJS:
     ## e.g.
-    # - js/custom.js # local js in `static/js/custom.js`
+    - js/custom.js # local js in `static/js/custom.js`
     # - https://example.com/custom.js # remote js
