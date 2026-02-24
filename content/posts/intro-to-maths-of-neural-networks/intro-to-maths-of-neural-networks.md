@@ -25,7 +25,7 @@ In this article we will only be dealing with the most basic architecture of an A
 
 Neural Networks are capable of approximating a function to any arbitrary precision. A function can be anything from calculating the probablity of rain given the weather data, identifying if the given picture is that of cat or a dog, or whats the next best move to play in chess.
 
-This property of ANNs is supported by the *Universal Approximation Theorem*^[1] which states that a Neural Network with as small as one hidden layer can approximate a function to an arbitrary degree of precision provided sufficient number of nodes are present in the hidden layer. This theorem provided the mathematical foundation for why Neural Networks work.
+This property of ANNs is supported by the *Universal Approximation Theorem*<sup>[1]</sup> which states that a Neural Network with as small as one hidden layer can approximate a function to an arbitrary degree of precision provided sufficient number of nodes are present in the hidden layer. This theorem provided the mathematical foundation for why Neural Networks work.
 
 However, the theorem only states that neural networks are capable of approximating functions. For the network to work properly for a given task, the neurons have to contain the correct weights which will be learned during the training process.
 

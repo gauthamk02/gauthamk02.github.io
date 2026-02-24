@@ -1,55 +1,38 @@
 /**
- * Reference tooltips: show footnote content on hover over [1], [2], etc.
+ * Reference tooltips: show footnote content on hover over <sup>[1]</sup> citations.
+ *
+ * Citations in markdown use <sup>[N]</sup>, footnote definitions use [N] at
+ * the start of a line under a ## Footnotes heading.
  */
 (function () {
   'use strict';
 
-  function getFootnotesSection() {
-    var el = document.getElementById('footnotes');
-    if (el) return el;
-    var content = document.querySelector('#single .content') || document.querySelector('.content');
-    if (!content) return null;
-    var headings = content.querySelectorAll('h2');
-    for (var i = 0; i < headings.length; i++) {
-      if (/footnotes/i.test(headings[i].textContent || '')) return headings[i];
-    }
-    return null;
-  }
-
-  function getFootnotesMap(footnotesSection) {
-    if (!footnotesSection) return {};
-
+  function getFootnotesMap(content) {
     var map = {};
-    var el = footnotesSection.nextElementSibling;
-    while (el) {
+    var paragraphs = content.querySelectorAll('p');
+    paragraphs.forEach(function (el) {
       var raw = el.textContent && el.textContent.trim();
       var match = raw && raw.match(/^\s*\[(\d+)\]\s*/);
-      if (match) {
-        var num = match[1];
-        var inner = el.innerHTML;
-        var content = inner.replace(/^\s*\[\d+\]\s*/, '').trim();
-        var next = el.nextElementSibling;
-        if (next && next.tagName !== 'P') {
-          var last = el;
-          while (next && next.tagName !== 'P') {
-            content += next.outerHTML;
-            last = next;
-            next = next.nextElementSibling;
-          }
-          map[num] = content;
-          el = last.nextElementSibling;
-          continue;
+      if (!match) return;
+
+      var num = match[1];
+      var inner = el.innerHTML;
+      var body = inner.replace(/^\s*\[\d+\]\s*/, '').trim();
+      var next = el.nextElementSibling;
+      if (next && next.tagName !== 'P') {
+        while (next && next.tagName !== 'P') {
+          body += next.outerHTML;
+          next = next.nextElementSibling;
         }
-        map[num] = content;
       }
-      el = el.nextElementSibling;
-    }
+      map[num] = body;
+    });
     return map;
   }
 
   function isMobileOrTouch() {
     return window.matchMedia('(max-width: 768px)').matches ||
-           window.matchMedia('(pointer: coarse)').matches;
+      window.matchMedia('(pointer: coarse)').matches;
   }
 
   function initFootnoteTooltips() {
@@ -58,38 +41,35 @@
     var content = document.querySelector('#single .content') || document.querySelector('.content');
     if (!content) return;
 
-    var footnotesSection = getFootnotesSection();
-    var footnoteMap = getFootnotesMap(footnotesSection);
+    var footnoteMap = getFootnotesMap(content);
     if (Object.keys(footnoteMap).length === 0) return;
 
-    var fullHtml = content.innerHTML;
-    var footnotesStart = fullHtml.indexOf('id="footnotes"');
-    if (footnotesStart === -1) {
-      var h2Start = fullHtml.indexOf('<h2');
-      while (h2Start !== -1) {
-        var endTag = fullHtml.indexOf('>', h2Start);
-        var block = fullHtml.substring(h2Start, endTag + 1);
-        if (/footnotes/i.test(block)) {
-          footnotesStart = h2Start;
-          break;
-        }
-        h2Start = fullHtml.indexOf('<h2', endTag);
-      }
-    } else {
-      footnotesStart = fullHtml.lastIndexOf('<', footnotesStart);
-    }
-    if (footnotesStart === -1) return;
+    // Match <sup>[N]</sup> citations — unambiguous, no need to split HTML
+    var sups = content.querySelectorAll('sup');
+    sups.forEach(function (sup) {
+      var text = sup.textContent && sup.textContent.trim();
+      var match = text && text.match(/^\[(\d+)\]$/);
+      if (!match) return;
 
-    var beforeFootnotes = fullHtml.substring(0, footnotesStart);
-    var afterFootnotes = fullHtml.substring(footnotesStart);
+      var num = match[1];
+      if (!footnoteMap[num]) return;
 
-    var replaced = beforeFootnotes.replace(/\[(\d+)\]/g, function (match, num) {
-      if (!footnoteMap[num]) return match;
-      var body = footnoteMap[num];
-      return '<span class="ref-tooltip-wrap"><span class="ref-tooltip-trigger" tabindex="0">[' + num + ']</span><span class="ref-tooltip-box">' + body + '</span></span>';
+      var wrap = document.createElement('span');
+      wrap.className = 'ref-tooltip-wrap';
+
+      var trigger = document.createElement('span');
+      trigger.className = 'ref-tooltip-trigger';
+      trigger.setAttribute('tabindex', '0');
+      trigger.innerHTML = '<sup>[' + num + ']</sup>';
+
+      var box = document.createElement('span');
+      box.className = 'ref-tooltip-box';
+      box.innerHTML = footnoteMap[num];
+
+      wrap.appendChild(trigger);
+      wrap.appendChild(box);
+      sup.replaceWith(wrap);
     });
-
-    content.innerHTML = replaced + afterFootnotes;
 
     content.querySelectorAll('.ref-tooltip-wrap').forEach(function (wrap) {
       var trigger = wrap.querySelector('.ref-tooltip-trigger');
