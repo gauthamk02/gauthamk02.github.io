@@ -30,13 +30,7 @@
     return map;
   }
 
-  function isMobileOrTouch() {
-    return window.matchMedia('(max-width: 768px)').matches ||
-      window.matchMedia('(pointer: coarse)').matches;
-  }
-
   function initFootnoteTooltips() {
-    if (isMobileOrTouch()) return;
 
     var content = document.querySelector('#single .content') || document.querySelector('.content');
     if (!content) return;
@@ -77,6 +71,16 @@
       if (!trigger || !box) return;
       function show() {
         box.classList.add('tooltip-visible');
+        // Reset any previous shift
+        box.style.marginLeft = '';
+        // Clamp tooltip within viewport
+        var rect = box.getBoundingClientRect();
+        var pad = 8;
+        if (rect.left < pad) {
+          box.style.marginLeft = (pad - rect.left) + 'px';
+        } else if (rect.right > window.innerWidth - pad) {
+          box.style.marginLeft = (window.innerWidth - pad - rect.right) + 'px';
+        }
       }
       function hide() {
         box.classList.remove('tooltip-visible');

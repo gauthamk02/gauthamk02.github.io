@@ -60,7 +60,7 @@ nav.navigation a.CVbutton {
     right: 0;
     left: 0;
     background: #fff;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     padding: 10px 0;
     flex-direction: column;
   }
@@ -99,20 +99,20 @@ nav.navigation a.CVbutton {
   }
 
   /* Show nav when checkbox is checked */
-  .nav-toggle:checked ~ .nav-links {
+  .nav-toggle:checked~.nav-links {
     display: flex;
   }
 
   /* Animate hamburger to X */
-  .nav-toggle:checked ~ .hamburger span:nth-child(1) {
+  .nav-toggle:checked~.hamburger span:nth-child(1) {
     transform: translateY(7px) rotate(45deg);
   }
 
-  .nav-toggle:checked ~ .hamburger span:nth-child(2) {
+  .nav-toggle:checked~.hamburger span:nth-child(2) {
     opacity: 0;
   }
 
-  .nav-toggle:checked ~ .hamburger span:nth-child(3) {
+  .nav-toggle:checked~.hamburger span:nth-child(3) {
     transform: translateY(-7px) rotate(-45deg);
   }
 }
@@ -127,14 +127,14 @@ ul.tl-list li p {
 }
 
 .hr-dark {
-  margin-top: 0; 
+  margin-top: 0;
   margin-bottom: 10px;
   border: none;
   border-top: 2px solid #4e4e4e;
 }
 
 .hr-light {
-  margin-top: 0; 
+  margin-top: 0;
   margin-bottom: 10px;
   border: none;
   border-top: 2px solid #bbbbbb;
@@ -163,7 +163,7 @@ p:empty {
     margin: 24px 0;
   }
 
-  #list-page .item > div {
+  #list-page .item>div {
     display: flex;
     flex-direction: column;
   }
@@ -287,11 +287,11 @@ p:empty {
 }
 
 /* Only when shown: real position, size, and interactive */
-.ref-tooltip-trigger:hover + .ref-tooltip-box,
+.ref-tooltip-trigger:hover+.ref-tooltip-box,
 .ref-tooltip-wrap:hover .ref-tooltip-box,
-.ref-tooltip-trigger:focus + .ref-tooltip-box,
-.ref-tooltip-trigger:focus-visible + .ref-tooltip-box,
-.ref-tooltip-trigger + .ref-tooltip-box.visible,
+.ref-tooltip-trigger:focus+.ref-tooltip-box,
+.ref-tooltip-trigger:focus-visible+.ref-tooltip-box,
+.ref-tooltip-trigger+.ref-tooltip-box.visible,
 .ref-tooltip-box.tooltip-visible {
   left: 50%;
   top: auto;
