@@ -6,7 +6,7 @@ draft: false # set draft as true to not display it in the home page after runnin
 
 A collection of links to the interesting things I find on the internet.
 
-## Blogs
+## Blogs / Stories
 1. [They're Made out of Meat](https://www.mit.edu/people/dpolicar/writing/prose/text/thinkingMeat.html)
 2. [Cities and Ambition - Paul Graham](https://paulgraham.com/cities.html)
 3. [What Should You Do with Your Life? Directions and Advice](https://guzey.com/personal/what-should-you-do-with-your-life/)
@@ -14,6 +14,7 @@ A collection of links to the interesting things I find on the internet.
 5. [Hugging the X-Axis](https://perell.com/essay/hugging-the-x-axis/)
 5. [Just know stuff](https://kidger.site/thoughts/just-know-stuff/)
 6. [Smart Questions](http://www.catb.org/~esr/faqs/smart-questions.html)
+7. [The Egg](https://www.galactanet.com/oneoff/theegg.html)
 
 ## Websites
 1. [Folklore](https://www.folklore.org/0-index.html)
