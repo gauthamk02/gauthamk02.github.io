@@ -8,9 +8,9 @@ showToc: false
 
 The following is a short introduction thats meant to give a general info about me to the people that stumble on this site.
 
-I'm a Deep Learning Engineer working in Medical AI, having recently graduated with a bachelor's in Computer Science from Amrita University, Amritapuri. I continue to live in Amritapuri, a serene coastal town on the Kerala coast, where beaches, lush greenery, and the ashram create an inspiring atmosphere.
+I'm a 23 year old Deep Learning Engineer working in Medical AI. I live in Kerala, India and recently graduated with a bachelor's in Computer Science from Amrita University, Amritapuri.
 
-I read a lot of books, blogs, papers and am always looking for new things to learn — check out my [Bookshelf](/bookshelf) to see what I've been reading lately. I also play table tennis, swim, blog, kayak, and occasionally watch movies, with Wes Anderson films being my current obsession. Apart from English, I know Malayalam and am currently learning Hindi using Duolingo and by talking to friends. Talk to me about Deep Learning, tech, philosophy, movies, books, dogs, or anything you find interesting. I'm always up for a good conversation.
+I read a lot of books, blogs, papers and am always looking for new things to learn — check out my [Bookshelf](/bookshelf) to see what I've been reading lately. I also play table tennis, swim, blog, kayak, and occasionally watch movies, with Wes Anderson films being my current obsession. Apart from English, I know Malayalam and am currently learning Hindi using Duolingo and by talking to friends. Talk to me about Deep Learning, tech, philosophy, movies, books, chess, dogs, or anything you find interesting. I'm always up for a good conversation.
 
 During my undergraduate studies, I worked on many interesting research and open-source projects in AI, including contributing to [DeepChem](https://deepchem.io/) as part of Google Summer of Code 2024. I was also an active member and mentor of the student-run FOSS club, [amFOSS](https://amfoss.in), where I stayed back after classes to work on my projects, particpate for hackathons and organise events. Being a part of this club helped me get exposed to the tech world and allowed me to meet and interact with a lot of amazing people.
 
