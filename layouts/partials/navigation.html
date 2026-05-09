@@ -26,7 +26,11 @@
 		{{ end }}
 
 		{{ if .Site.Params.enableRSS }}
-			<a class="button" href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}">{{ with .Site.Params.subscribe }}{{ . }}{{ else }}{{ i18n "subscribe" }}{{ end }}</a>
+			{{ with .OutputFormats.Get "RSS" }}
+				<a class="button" href="{{ .RelPermalink }}">{{ with $.Site.Params.subscribe }}{{ . }}{{ else }}{{ i18n "subscribe" }}{{ end }}</a>
+			{{ else }}
+				<a class="button" href="{{ "/index.xml" | relURL }}">{{ with .Site.Params.subscribe }}{{ . }}{{ else }}{{ i18n "subscribe" }}{{ end }}</a>
+			{{ end }}
 		{{ end }}
 	</div>
 </nav>
