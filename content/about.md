@@ -6,19 +6,19 @@ showToc: false
 
 ## Hello! 
 
-The following is a short introduction thats meant to give a general info about me to the people that stumble on this site.
+The following is a short introduction that's meant to give a general info about me to the people that stumble on this site.
 
 I'm a 23 year old Deep Learning Engineer working in Medical AI. I live in Kerala, India and recently graduated with a bachelor's in Computer Science from Amrita University, Amritapuri.
 
 I read a lot of books, blogs, papers and am always looking for new things to learn — check out my [Bookshelf](/bookshelf) to see what I've been reading lately. I also play table tennis, swim, blog, kayak, and occasionally watch movies, with Wes Anderson films being my current obsession. Apart from English, I know Malayalam and am currently learning Hindi using Duolingo and by talking to friends. Talk to me about Deep Learning, tech, philosophy, movies, books, chess, dogs, or anything you find interesting. I'm always up for a good conversation.
 
-During my undergraduate studies, I worked on many interesting research and open-source projects in AI, including contributing to [DeepChem](https://deepchem.io/) as part of Google Summer of Code 2024. I was also an active member and mentor of the student-run FOSS club, [amFOSS](https://amfoss.in), where I stayed back after classes to work on my projects, particpate for hackathons and organise events. Being a part of this club helped me get exposed to the tech world and allowed me to meet and interact with a lot of amazing people.
+During my undergraduate studies, I worked on many interesting research and open-source projects in AI, including contributing to [DeepChem](https://deepchem.io/) as part of Google Summer of Code 2024. I was also an active member and mentor of the student-run FOSS club, [amFOSS](https://amfoss.in), where I stayed back after classes to work on my projects, participate in hackathons and organise events. Being a part of this club helped me get exposed to the tech world and allowed me to meet and interact with a lot of amazing people.
 
-If you are interested in the work I do, check out my GitHub profile [https://github.com/gauthamk02](https://github.com/gauthamk02) or my [CV](https://drive.google.com/file/d/1m1Tbe-himD18DG0xv2gzxOKHdKMI3H5-/view?usp=sharing). You can reach out to me at [gauthamkrishnanpriya@gmail.com](mailto:gauthamkrishnanpriya@gmail.com). Also follow me on Twitter [@gaushn_](https://twitter.com/gaushn_) to read my random thougths and rants.
+If you are interested in the work I do, check out my GitHub profile [https://github.com/gauthamk02](https://github.com/gauthamk02) or my [CV](https://drive.google.com/file/d/1m1Tbe-himD18DG0xv2gzxOKHdKMI3H5-/view?usp=sharing). You can reach out to me at [gauthamkrishnanpriya@gmail.com](mailto:gauthamkrishnanpriya@gmail.com). Also follow me on Twitter [@gaushn_](https://twitter.com/gaushn_) to read my random thoughts and rants.
 
 
 ## My Works
-<!-- increase tgickness of the line -->
+<!-- increase thickness of the line -->
 <hr class="hr-dark">
 
 <div style="display: flex; justify-content: space-between;">
@@ -26,21 +26,21 @@ If you are interested in the work I do, check out my GitHub profile [https://git
   <h3 style="margin: 0; font-weight: bold;">May 2023 – Present</h3>
 </div>
 
-Member of the EUSML project that works on building AI-assissted tools for the Endoscopic Ultrasound(EUS) procedure. EUS is a complicated procedure that takes a lot of time to master and we collect annotated data of the procedure from experienced doctors and are building an AI model that can identify and segment pancreas, tumors and also detect cancer in real-time. My responsibilities in the project include maintaining the dataset generation pipeline, model training/evaluation, researching new & existing methods, and maintaining the codebase.
+Member of the EUSML project that works on building AI-assisted tools for the Endoscopic Ultrasound(EUS) procedure. EUS is a complicated procedure that takes a lot of time to master and we collect annotated data of the procedure from experienced doctors and are building an AI model that can identify and segment pancreas, tumors and also detect cancer in real-time. My responsibilities in the project include maintaining the dataset generation pipeline, model training/evaluation, researching new & existing methods, and maintaining the codebase.
 
 <div style="display: flex; justify-content: space-between;">
   <h3 style="margin: 0; font-weight: bold;">Google Summer of Code 2024, DeepChem</h3>
   <h3 style="margin: 0; font-weight: bold;">May 2024 – August 2024</h3>
 </div>
 
-DeepChem is a Python library for machine learning and deep learning on molecular and quantum datasets. I contributed to the library as part of GSoC 2024 for the project [Torch Compile and Pytorch 2.0](https://summerofcode.withgoogle.com/programs/2024/projects/Xwr0Z1tZ). You can chckout the [Project Report](https://forum.deepchem.io/t/project-report-torch-compile-and-pytorch-2-2-0-gsoc-2024/1441) for the technical details of the project. I have also made significant contributions to the library in the past including porting Progrssive Multitask Model from Tensorflow to PyTorch, fixing bugs etc.
+DeepChem is a Python library for machine learning and deep learning on molecular and quantum datasets. I contributed to the library as part of GSoC 2024 for the project [Torch Compile and Pytorch 2.0](https://summerofcode.withgoogle.com/programs/2024/projects/Xwr0Z1tZ). You can checkout the [Project Report](https://forum.deepchem.io/t/project-report-torch-compile-and-pytorch-2-2-0-gsoc-2024/1441) for the technical details of the project. I have also made significant contributions to the library in the past including porting Progressive Multitask Model from Tensorflow to PyTorch, fixing bugs etc.
 
 <div style="display: flex; justify-content: space-between;">
   <h3 style="margin: 0; font-weight: bold;">Research Team Member at Tech4Good Lab, UCSC</h3>
   <h3 style="margin: 0; font-weight: bold;">January 2024 – April 2024</h3>
 </div>
 
-Worked on the ai-economist project under [Tech4Good Lab](https://tech4good.soe.ucsc.edu/) that uses multi-agent reinforcement learning for modelling apprenticeship learning. The project constructs diferent scenarios of apprenticeship, mentoring, government policies and simulate them using RL to find and interpret the results.
+Worked on the ai-economist project under [Tech4Good Lab](https://tech4good.soe.ucsc.edu/) that uses multi-agent reinforcement learning for modelling apprenticeship learning. The project constructs different scenarios of apprenticeship, mentoring, government policies and simulate them using RL to find and interpret the results.
 
 
 <div style="display: flex; justify-content: space-between;">
@@ -105,7 +105,7 @@ Researched different methods of Sample Size Determination to predict the sample 
     </li>
     <li>
         ➔ <strong>Won Hackverse 4.0</strong>
-        <p>First prize winners of the hackathon, Hackverse 4.0, organsied by NITK Surathkal and Devfolio.</p>
+        <p>First prize winners of the hackathon, Hackverse 4.0, organised by NITK Surathkal and Devfolio.</p>
     </li>
     <li>
         ➔ <strong>Joined EUS-ML project</strong>

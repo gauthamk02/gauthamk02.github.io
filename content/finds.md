@@ -25,7 +25,7 @@ A collection of links to the interesting things I find on the internet.
 ## Tweets
 
 1. [# on shortification of "learning" - Andrej Karpathy](https://x.com/karpathy/status/1756380066580455557)
-2. [Neural network optimization mystry](https://x.com/Shalev_lif/status/1939101231357599812)
+2. [Neural network optimization mystery](https://x.com/Shalev_lif/status/1939101231357599812)
 3. [Go for a run](https://x.com/amor_fatti/status/1843830386746634591)
 4. [Living Code](https://x.com/thesephist/status/1891326163953344524)
 
