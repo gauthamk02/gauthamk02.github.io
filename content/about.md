@@ -22,11 +22,11 @@ If you are interested in the work I do, check out my GitHub profile [https://git
 <hr class="hr-dark">
 
 <div style="display: flex; justify-content: space-between;">
-  <h3 style="margin: 0; font-weight: bold;">Research Engineer at TeXNano</h3>
+  <h3 style="margin: 0; font-weight: bold;">Research Engineer at Maitri Labs</h3>
   <h3 style="margin: 0; font-weight: bold;">May 2023 – Present</h3>
 </div>
 
-Working on multiple Medical AI projects, primarily centered on real-time analysis of ultrasound imaging. My work spans research, infrastructure and engineering — building architectures for endoscopic ultrasound video analysis, developing real-time inference systems with sub-100ms latency, engineering scalable data pipelines for growing clinical data, and maintaining cloud data collection infrastructure. Beyond the technical work, I mentor junior team members in getting started with Medical AI, conducting literature reviews and working with large codebases.
+Working on multiple Medical AI projects. My work spans research, infrastructure and engineering — building architectures for endoscopic ultrasound video analysis, developing real-time inference systems with sub-100ms latency, engineering scalable data pipelines for growing clinical data, and maintaining cloud data collection infrastructure. Currently building environment and harness for allowing agents to interact with medical scans.
 
 <div style="display: flex; justify-content: space-between;">
   <h3 style="margin: 0; font-weight: bold;">Google Summer of Code 2024, DeepChem</h3>
