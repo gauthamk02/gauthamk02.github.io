@@ -94,7 +94,7 @@ params:
   # You can put your custom css and js to `static` directory, or use remote css and js files which start with `http://` or `https://`
 
   showCV: true
-  cvLink: https://drive.google.com/file/d/1m1Tbe-himD18DG0xv2gzxOKHdKMI3H5-/view?usp=sharing
+  cvLink: https://gauthamk02.github.io/cv-and-misc/Gautham_CV.pdf
 
   customCSS:
     ## e.g.
