@@ -1,0 +1,2 @@
+{{- $when := .period | default (substr .date 0 4) -}}
+{{- delimit (apply (split $when " · ") "htmlEscape" ".") "<br>" | safeHTML -}}

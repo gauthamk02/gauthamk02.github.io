@@ -1,0 +1,35 @@
+/* Works page (/works/). Colours follow the theme; dark mode is the theme's invert filter. */
+
+.works .works-intro { margin-top: 24px; text-align: center; color: #757575; }
+.works .works-intro p { margin: 0; }
+
+.works .w-section { margin: 48px 0 6px; font-size: 22px; font-weight: 600; }
+
+.w-item { margin: 22px 0 30px; }
+.w-head { display: flex; justify-content: space-between; align-items: baseline; gap: 48px; }
+.w-title { margin: 0; flex: 1 1 auto; min-width: 0; font-size: 17px; font-weight: 600; line-height: 1.45; color: #303030; }
+.w-date { flex: none; font-size: 13px; line-height: 1.5; color: #8c8c8c; white-space: nowrap; text-align: right; }
+.w-authors { margin-top: 4px; font-size: 14px; color: #666; }
+.w-authors strong { color: #303030; }
+.w-meta { margin-top: 2px; font-size: 14px; color: #757575; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; }
+.w-desc { margin: 8px 0 0; font-size: 15px; line-height: 1.7; }
+.w-desc code { font-size: 13px; padding: 1px 4px; background: #f3f3f3; border-radius: 3px; }
+
+.w-badge {
+  font-size: 12px; line-height: 1.4; padding: 1px 8px; border-radius: 10px;
+  background: #eef5fb; color: #3d7bb0; border: 1px solid #d3e6f5; font-style: normal;
+}
+
+.w-links { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 8px; }
+.w-link {
+  font-size: 14px; font-weight: 500; line-height: 1.4; padding: 5px 13px; border: 1px solid #b9d6ee;
+  border-radius: 4px; color: #3d7bb0; background: #f4f9fd;
+}
+.w-link:hover { border-color: #5badf0; background: #e8f2fb; color: #0366d6; }
+.w-link-soon { color: #aaa; border-style: dashed; cursor: default; }
+
+@media (max-width: 700px) {
+  .w-head { flex-direction: column; gap: 2px; }
+  .w-title { flex: none; }
+  .w-date { text-align: left; }
+}

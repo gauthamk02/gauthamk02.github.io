@@ -14,43 +14,7 @@ I read a lot of books, blogs, papers and am always looking for new things to lea
 
 During my undergraduate studies, I worked on many interesting research and open-source projects in AI, including contributing to [DeepChem](https://deepchem.io/) as part of Google Summer of Code 2024. I was also an active member and mentor of the student-run FOSS club, [amFOSS](https://amfoss.in), where I stayed back after classes to work on my projects, participate in hackathons and organise events. Being a part of this club helped me get exposed to the tech world and allowed me to meet and interact with a lot of amazing people.
 
-If you are interested in the work I do, check out my GitHub profile [https://github.com/gauthamk02](https://github.com/gauthamk02) or my [CV](https://gauthamk02.github.io/cv-and-misc/Gautham_CV.pdf). You can reach out to me at [gauthamkrishnanpriya@gmail.com](mailto:gauthamkrishnanpriya@gmail.com). Also follow me on Twitter [@gaushn_](https://twitter.com/gaushn_) to read my random thoughts and rants.
-
-
-## My Works
-<!-- increase thickness of the line -->
-<hr class="hr-dark">
-
-<div style="display: flex; justify-content: space-between;">
-  <h3 style="margin: 0; font-weight: bold;">Research Engineer at Maitri Labs</h3>
-  <h3 style="margin: 0; font-weight: bold;">May 2023 – Present</h3>
-</div>
-
-Working on multiple Medical AI projects. My work spans research, infrastructure and engineering — building architectures for endoscopic ultrasound video analysis, developing real-time inference systems with sub-100ms latency, engineering scalable data pipelines for growing clinical data, and maintaining cloud data collection infrastructure. Currently building environment and harness for allowing agents to interact with medical scans.
-
-<div style="display: flex; justify-content: space-between;">
-  <h3 style="margin: 0; font-weight: bold;">Google Summer of Code 2024, DeepChem</h3>
-  <h3 style="margin: 0; font-weight: bold;">May 2024 – August 2024</h3>
-</div>
-
-DeepChem is a Python library for machine learning and deep learning on molecular and quantum datasets. I contributed to the library as part of GSoC 2024 for the project [Torch Compile and Pytorch 2.0](https://summerofcode.withgoogle.com/programs/2024/projects/Xwr0Z1tZ). You can checkout the [Project Report](https://forum.deepchem.io/t/project-report-torch-compile-and-pytorch-2-2-0-gsoc-2024/1441) for the technical details of the project. I have also made significant contributions to the library in the past including porting Progressive Multitask Model from Tensorflow to PyTorch, fixing bugs etc.
-
-<div style="display: flex; justify-content: space-between;">
-  <h3 style="margin: 0; font-weight: bold;">Research Team Member at Tech4Good Lab, UCSC</h3>
-  <h3 style="margin: 0; font-weight: bold;">January 2024 – April 2024</h3>
-</div>
-
-Worked on the ai-economist project under [Tech4Good Lab](https://tech4good.soe.ucsc.edu/) that uses multi-agent reinforcement learning for modelling apprenticeship learning. The project constructs different scenarios of apprenticeship, mentoring, government policies and simulate them using RL to find and interpret the results.
-
-
-<div style="display: flex; justify-content: space-between;">
-  <h3 style="margin: 0; font-weight: bold;">ACM Internship</h3>
-  <h3 style="margin: 0; font-weight: bold;">September – October 2022</h3>
-</div>
-
-
-Researched different methods of Sample Size Determination to predict the sample size required to train a Machine Learning model to achieve a certain accuracy and explored various algorithms and evaluated their effectiveness in different scenarios. As part of the research I also explored McNemar’s and other statistical tests for determining the better-performing model.\
-[Report](https://drive.google.com/file/d/1DTVWHkgnsuFdb_wIYzl0AFVIAFs_3RtL/view)
+If you are interested in the work I do, check out my [Works](/works/) page, my GitHub profile [https://github.com/gauthamk02](https://github.com/gauthamk02) or my [CV](https://gauthamk02.github.io/cv-and-misc/Gautham_CV.pdf). You can reach out to me at [gauthamkrishnanpriya@gmail.com](mailto:gauthamkrishnanpriya@gmail.com). Also follow me on Twitter [@gaushn_](https://twitter.com/gaushn_) to read my random thoughts and rants.
 
 
 ## Timeline

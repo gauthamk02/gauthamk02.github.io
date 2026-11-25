@@ -1,0 +1,136 @@
+# Entries for the Works page (/works/).
+#
+# type:   patent | paper | opensource | award (shown under Competitions)
+# date:   YYYY-MM, used for sorting (newest first) and year grouping
+# period: optional display date; falls back to the year of `date`
+# authors: "G. K. Priya" is bolded automatically
+# links:  label + url; leave url empty to show a greyed-out "coming soon" link
+
+- id: chd-bench
+  type: paper
+  title: "CHD-Bench: Diagnosing Congenital Heart Disease through Interactive Examination"
+  authors: "G. K. Priya, S. Vasu, A. Vijesh, R. Rameshbabu, H. A. Maya, S. Xavier, M. Kappanayil, G. Gressel"
+  venue: "arXiv:2611.33775"
+  status: Preprint
+  date: "2026-11"
+  desc: >-
+    The first model-agnostic benchmark and harness in which VLM agents diagnose congenital
+    heart disease by interactively examining 3D cardiac CT and MRI inside a live 3D Slicer session. Through
+    22 tools, agents view slices, manipulate the 3D view, clip, measure and display segmentations the way a
+    radiologist does, instead of reading a fixed set of pre-selected images. The best agent reaches an F1 of
+    0.65 and beats every other method we evaluated.
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2611.33775"
+    - label: Code
+      url: "https://github.com/Maitri-Labs-Amrita/CHD-Bench"
+
+- id: pdac-eus
+  type: paper
+  title: "Automated Patient-Level Pancreatic Ductal Adenocarcinoma Detection from B-Mode EUS Video: A Retrospective Diagnostic Accuracy Study"
+  authors: "G. K. Priya, A. Swain, A. Kaimal, …, G. Gressel, P. Nair"
+  venue: "Endoscopic Ultrasound"
+  status: Under review
+  date: "2026-06"
+  desc: >-
+    A CNN–Transformer–MIL architecture that detects pancreatic cancer for a whole patient directly from
+    endoscopic ultrasound video, fast enough (under 50 ms) to run live during the procedure. The model
+    reads the B-mode video an endoscopist already captures, so it needs no extra imaging or manual frame
+    selection. This study measures its diagnostic accuracy on retrospective clinical EUS procedures.
+
+- id: fmc-uia-paper
+  type: paper
+  title: "Towards a Generalist Ultrasound Foundation Model via Task-Adaptive Multi-Task Learning"
+  authors: "A. Swain, G. K. Priya, A. Vijesh"
+  venue: "Foundation Model Challenge for Ultrasound Image Analysis (FMC-UIA), ISBI 2026"
+  status: Challenge paper
+  date: "2026-01"
+  desc: >-
+    One multi-task model that handles segmentation, classification, detection and regression across 22
+    public ultrasound datasets. Task-adaptive multi-task learning lets a single shared model serve every
+    task, instead of training a separate specialist per dataset. This is our entry to the ISBI 2026
+    challenge, where it ranked 7th worldwide.
+  links:
+    - label: Paper
+      url: "https://www.researchgate.net/profile/Jieyun-Bai/publication/405206599_Foundation_Model_Challenge_for_Ultrasound_Image_Analysis/links/6a12efd4719db12f6b1315b7/Foundation-Model-Challenge-for-Ultrasound-Image-Analysis.pdf#page=11"
+
+- id: eus-patent
+  type: patent
+  title: "AI-Assisted Endoscopic Ultrasound System and Method for Pancreatic Abnormality Detection"
+  authors: "G. Gressel, P. Nair, A. Ramesh, G. K. Priya, A. Swain"
+  venue: "Indian Patent Application No. 202541034844"
+  status: Published
+  date: "2026-04"
+  period: "Filed Apr 2025 · Published Apr 2026"
+  desc: >-
+    Patent application for the AI-assisted EUS system that flags pancreatic abnormalities in real time
+    during endoscopic ultrasound. It covers the real-time detection architecture behind our pancreatic
+    cancer work, which I co-invented.
+
+- id: fmc-uia-rank
+  type: award
+  title: "7th Worldwide, ISBI 2026 Foundation Model Challenge for Ultrasound Image Analysis"
+  role: Team Lead
+  date: "2026-01"
+  period: "January 2026"
+  desc: >-
+    Led our team to a global rank of 7 in the ISBI 2026 challenge on general-purpose ultrasound models.
+    I built the training stack: data loading and augmentation across 22 datasets, metric logging and
+    experiment tracking with MONAI, PyTorch and W&B.
+  links:
+    - label: Certificate
+      url: "https://gauthamk02.github.io/cv-and-misc/certificates/isbi-2026-fmc-uia-7th-place.pdf"
+    - label: Paper
+      url: "https://www.researchgate.net/profile/Jieyun-Bai/publication/405206599_Foundation_Model_Challenge_for_Ultrasound_Image_Analysis/links/6a12efd4719db12f6b1315b7/Foundation-Model-Challenge-for-Ultrasound-Image-Analysis.pdf#page=11"
+
+- id: monai-us-wg
+  type: opensource
+  title: "MONAI Ultrasound Working Group"
+  role: Open Source Contributor
+  date: "2025-12"
+  period: "Dec 2025 – Present"
+  desc: >-
+    Built the working group's unified evaluation pipeline, which benchmarks any model–dataset pair through
+    one interface and replaces per-model ad hoc scripts. With it I benchmarked 3 text-promptable
+    segmentation foundation models on 13 public ultrasound datasets (11 anatomies, 120k+ images), which is
+    now the group's reference comparison. I also maintain a repository that packages public ultrasound
+    datasets in one standard format.
+  links:
+    - label: Dataset
+      url: "https://huggingface.co/datasets/us-segmentator/us-segmentation-dataset"
+    - label: Benchmark code
+      url: "https://github.com/gauthamk02/us_multi_anatomy_seg"
+    - label: MONAI
+      url: "https://monai.io"
+
+- id: slicer-eval-mcp
+  type: opensource
+  title: "slicer-eval-mcp"
+  date: "2026-11"
+  period: "November 2026"
+  desc: >-
+    An open-source MCP server through which VLM agents operate 3D Slicer, the widely used
+    platform for medical image viewing. Agents examine a volumetric scan with tools for the 3D view, rendering
+    presets, clipping, slices, measurements and segmentations, and never execute model-generated code. Every
+    tool call is logged with its arguments, resulting state and images, so each session can be audited,
+    replayed and scored.
+  links:
+    - label: Code
+      url: "https://github.com/Maitri-Labs-Amrita/slicer-eval-mcp"
+
+- id: gsoc-deepchem
+  type: opensource
+  title: "Google Summer of Code 2024, DeepChem"
+  role: Contributor
+  date: "2024-05"
+  period: "May – Aug 2024"
+  desc: >-
+    Integrated `torch.compile()` into DeepChem, the Python library for deep learning on molecules and
+    quantum data, making select PyTorch models up to 21% faster at inference and 18% faster in training.
+    I also wrote the tutorial on compiling and benchmarking DeepChem models, and before GSoC ported the
+    ProgressiveMultitask model from TensorFlow to PyTorch.
+  links:
+    - label: Project
+      url: "https://summerofcode.withgoogle.com/programs/2024/projects/Xwr0Z1tZ"
+    - label: Report
+      url: "https://forum.deepchem.io/t/project-report-torch-compile-and-pytorch-2-2-0-gsoc-2024/1441"

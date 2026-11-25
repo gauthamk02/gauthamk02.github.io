@@ -1,0 +1,11 @@
+{{- with .links -}}
+<div class="w-links">
+  {{- range . -}}
+    {{- if .url -}}
+    <a class="w-link" href="{{ .url }}" target="_blank" rel="noopener">{{ .label }}</a>
+    {{- else -}}
+    <span class="w-link w-link-soon" title="Coming soon">{{ .label }} · soon</span>
+    {{- end -}}
+  {{- end -}}
+</div>
+{{- end -}}

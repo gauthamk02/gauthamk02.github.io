@@ -1,0 +1,17 @@
+{{/* One entry: title + date, authors, venue/role/status, description, links. */}}
+<article class="w-item">
+  <div class="w-head">
+    <h3 class="w-title">{{ .title }}</h3>
+    <span class="w-date">{{ partial "works/when.html" . }}</span>
+  </div>
+  {{ partial "works/authors.html" . }}
+  {{ if or .venue .role .status }}
+  <div class="w-meta">
+    {{ with .venue }}<em>{{ . }}</em>{{ end }}
+    {{ with .role }}<em>{{ . }}</em>{{ end }}
+    {{ with .status }}<span class="w-badge">{{ . }}</span>{{ end }}
+  </div>
+  {{ end }}
+  <p class="w-desc">{{ .desc | markdownify }}</p>
+  {{ partial "works/links.html" . }}
+</article>

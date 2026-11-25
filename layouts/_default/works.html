@@ -1,0 +1,13 @@
+{{ define "main" }}
+{{/* The theme's baseof has no head block, so the page stylesheet loads here. */}}
+<link rel="stylesheet" href="{{ "/css/works.css" | relURL }}">
+{{/* Entries come from data/works.yaml. */}}
+{{ $items := sort (site.Data.works | default slice) "date" "desc" }}
+
+<section id="single" class="works">
+  <h1 class="title">{{ .Title }}</h1>
+  {{ with .Content }}<div class="content works-intro">{{ . }}</div>{{ end }}
+
+  {{ partial "works/sections.html" $items }}
+</section>
+{{ end }}

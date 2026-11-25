@@ -1,0 +1,18 @@
+{{/* Sections in page order; each lists its entries newest first. */}}
+{{ $items := . }}
+{{ $sections := slice
+  (dict "title" "Patents" "types" (slice "patent"))
+  (dict "title" "Publications" "types" (slice "paper"))
+  (dict "title" "Open Source" "types" (slice "opensource"))
+  (dict "title" "Competitions" "types" (slice "award"))
+}}
+<div class="content">
+{{ range $sections }}
+  {{ $sec := where $items "type" "in" .types }}
+  {{ if $sec }}
+  <h2 class="w-section">{{ .title }}</h2>
+  <hr class="hr-dark">
+  {{ range $sec }}{{ partial "works/item.html" . }}{{ end }}
+  {{ end }}
+{{ end }}
+</div>
