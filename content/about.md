@@ -30,7 +30,7 @@ If you are interested in the work I do, check out my [Works](/works/) page, my G
 
 <ul class="tl-list">
     <li>
-        ➔ <strong>Joined TeXNano as a Research Engineer</strong>
+        ➔ <strong>Joined MAITRI Labs as a Research Engineer</strong>
         <p>Joined as full-time Research Engineer. Worked on multiple Medical AI projects.</p>
     </li>
 </ul>
@@ -39,7 +39,7 @@ If you are interested in the work I do, check out my [Works](/works/) page, my G
 
 <ul class="tl-list">
     <li>
-        ➔ <strong>Joined TeXNano as a Research Intern</strong>
+        ➔ <strong>Joined MAITRI Labs as a Student Researcher</strong>
         <p>Working on building AI-assisted tools for the Endoscopic Ultrasound(EUS) procedure.</p>
     </li>
     <li>
